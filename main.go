@@ -10,4 +10,5 @@ func main() {
 
 	fmt.Println("Estou no main...")
 	fmt.Println("A soma é  :: ", somado)
+	// fmt.Printf("A soma é Format :: %T{somado}")
 }
