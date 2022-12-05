@@ -1,0 +1,2 @@
+Nestas pastas de fundamentos:
+só aceita uma funcao main() por pasta.
