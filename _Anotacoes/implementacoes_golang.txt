@@ -1,0 +1,5 @@
+
+funcao_main:
+só aceita uma funcao main() por pasta.
+
+---
