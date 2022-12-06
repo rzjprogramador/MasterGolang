@@ -15,5 +15,6 @@ nomeacoes_pacotes_arquivos:
     o nome da pasta sera o nome do pacote ... 
     outros arquivos dentro desta pasta serao "coesos" deste mesmo pacote..
 
+  semantica_entre_arquivo_metodo:
     o nome do arquivo será o emsmo nome da funcao nele definida.
     ex : arquivo:: Somar , funcao Somar()
