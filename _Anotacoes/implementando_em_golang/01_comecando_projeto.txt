@@ -1,0 +1,6 @@
+
+criar_arquivo:
+arquivo.go
+
+criar_modulo:
+go mod init <ONDE QUER COMPARTILHAR PROJETO EX: github.com/rzjprogramador/<NomeProjeto> >
