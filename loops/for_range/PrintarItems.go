@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	items := []string{"Reinaldo", "Renata", "Guga"}
 
-	printarItems(items)
+	PrintarItems(items)
 
 }
 
-func printarItems(array []string) {
+func PrintarItems(array []string) {
 	for _, valor := range array {
 		fmt.Println(valor)
 	}

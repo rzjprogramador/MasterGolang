@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	repeteTexto()
+	Incrementar()
 }
 
-func repeteTexto() {
+func Incrementar() {
 
 	for varRepete := 0; varRepete <= 10; varRepete++ {
 		fmt.Println("vai repetir este valor  numero de vezes passada na condicao: ", varRepete)
