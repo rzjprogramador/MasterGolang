@@ -1,0 +1,10 @@
+# PreferenciaRZJ
+
+---
+
+# nomeacoes:
+  arquivos: padrao: SnackCase , para: Projeto + arquivo 
+            padrao: camelCase , para: pastas + funcoes + variaveis + objetos  
+
+---
+

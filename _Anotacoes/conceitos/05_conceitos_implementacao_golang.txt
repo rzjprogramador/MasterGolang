@@ -1,15 +1,5 @@
 # conceitos_implementacoes:
 
-importacoes_entre_pacotes_diferentes:
-
-exportaveis: um exportavel de pacote para outros Pacotes ... pode ser qualquer coisa que comece com Maiuscula ex: Funcao, Variavel, Objeto, etc... 
-
-publico: use padrao SnackCase a primeira LetraMaiuscula :: para deixar publico e ser exportavel  sera uma VarPublicaExportavel.
-
-privado: use nomeacao com primeira leetraMinuscula :: para nao poder exportar ser apenas um recipiente de uso do escopo local.
-
-importacao_dentro_do_mesmo_pacote: consigo importar uma referencia minuscula somente se tiver dentro do mesmo pacote.
-
 documentacao:
 ao inserir  comentario que " inicia " com o nome da funcao PublicaExportavel ele vai para a documentacao da app no GoDoc.
 obs: #rzj como nao gosto de comentario posso documentar em comentario na ultima linha do arquivo assim fica menos visivel melhor que encima da var Publica.

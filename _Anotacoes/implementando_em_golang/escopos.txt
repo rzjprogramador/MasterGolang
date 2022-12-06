@@ -1,5 +1,0 @@
-no_main:
-só aceita declaracoes dentro do escopo da func main.
-
-declaracoes_em_outros_arquivo:
-outros arquivos sem a funcao main() aceita declaracoes de vars fora do escopo da funcao.
