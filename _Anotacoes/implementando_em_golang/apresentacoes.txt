@@ -1,0 +1,9 @@
+# apresentacoes declaracoes
+
+atribuicao_e_reatribuicao:
+var1 := "Rei" // primeira vez foi atribuido uso :=
+
+var1 = "OutroNome" // segunda vez foi reatribuido com mesmo tipo de valor entao usa só  o igual "="
+
+//obs: uma vez atribuido o tipo de valor não  pode ser mudado ..somente ser editado reatribuido com o mesmo tipo de valor ex: se foi atribuido como string tem que ser string ate o final ...
+
