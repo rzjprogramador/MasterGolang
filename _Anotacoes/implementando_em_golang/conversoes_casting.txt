@@ -20,5 +20,13 @@ converte_string_para_inteiro:
 	resultConvertido, _ := strconv.ParseUint(texto, 10, 64)
 	fmt.Println(resultConvertido)
  ```
+ ---
  
+ converter_valor_asc_para_string:
+ // envolve no type string o valor que esta em asc ..normalmnete quando se itera por string
+ ex:
+ ```string(letra)```
+
+ ---
+
 
