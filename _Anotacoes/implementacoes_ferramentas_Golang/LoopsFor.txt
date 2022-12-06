@@ -1,0 +1,25 @@
+# Loops For com Range
+
+significado: Variar Para ...
+
+restricoes: NAO DÁ PARA FAZER FOR COM RANGE EM STRUCTS ESTRUTURAS.
+
+exemplos:
+```
+// iterar sobre o objMap
+// narracao: iterar trazendo chave e valor fazendo uma variacao/range no objMap tal { 
+  no console vejo as variaveis pedidas 
+}
+
+for chave, valor := range usuario {
+  fmt.Println(chave, valor)
+}
+
+```
+
+```
+// mostrar somente os valores
+	for _, valor := range usuario {
+		fmt.Println(valor)
+	}
+```
