@@ -6,12 +6,17 @@ func main() {
 	usuarioMap := map[string]string{
 		"nome":      "Reinaldo",
 		"sobrenome": "Zacharias",
+		"foo":       "bar",
 	}
 
 	fmt.Println(usuarioMap)
 
 	// acessar valor de chave : obs: somente apssando a chave como string
 	fmt.Println(usuarioMap["nome"])
+
+	// deletar uma prop do map com a funcao delete() 1º param o mapAlvo, 2º em string a chave/prop
+	delete(usuarioMap, "foo")
+	fmt.Println(usuarioMap)
 }
 
 /*
@@ -26,7 +31,10 @@ obs: todas as propriedades tem que ter virgula no final ... inclusive a ultima.
   se passou que os valores serao inteiro todas os valores terao que ser inteiros
 
 	acessos:
-	acessar_valor_de_chave : somente apssando a chave como string
+	acessar_valor_de_chave : somente passando a chave como string
 	fmt.Println(usuarioMap["nome"])
+
+	deletar_prop_do_map:
+	deletar uma prop do map com a funcao delete() 1º param o mapAlvo, 2º em string a chave/prop
 
 */
