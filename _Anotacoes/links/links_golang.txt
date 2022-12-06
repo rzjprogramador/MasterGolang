@@ -4,3 +4,7 @@ tutoriais:
 
 vim_bootstrap:
   configurar_vim_para_golang: https://vim-bootstrap.com/
+
+---
+config vscode for golang:
+https://code.visualstudio.com/docs/languages/go
