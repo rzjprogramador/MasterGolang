@@ -9,6 +9,13 @@ func main() {
 	var2, var3 := true, 10	// declaracao mais_que_uma
 	var4, var5, var6, var7 := "vTexto4", 555, false, "777" // declaracoes_multiplas
 
+	// declaracao_verbosa
+	var verbosa string = "valor VarVerbosa"
+
+	// reatribuicoes
+	var1 = "novo valor da var1" 
+	// nao posso reescrever com var1 := "valorNovo" nem var1 = 10 porque 10 é int e a var foi registrada como string
+
 	fmt.Println(var1)
 	fmt.Println(var2)
 	fmt.Println(var3)
@@ -16,6 +23,7 @@ func main() {
 	fmt.Println(var5)
 	fmt.Println(var6)
 	fmt.Println(var7)
+	fmt.Println(verbosa)
 }
 
 /*
@@ -36,5 +44,9 @@ registro_nascimento_declaracao:
 
 		 declaracoes_multiplas:
 		 declarando_por_inferencia mais_que_uma var na mesma linha ... na atribuicao ja passo os valores por esatr sendo por inferencia ..obs: estes valores tem que ser por justa posicao conforme as posicoes das variaveis da esquerda tem que combinar as posicoes...posso declarar mais que uma entao posso declarar e atribuir milhares infinitas.
+
+		 sobreescritas: é reatribuir o valor de uma var... entao posso reescrever usando o sinal de atribuicao normal o igual "=" 
+		 restricoes: só nao posso reescrever usando o sinal ":= foquinha" e nem mudar o tipo do valor ja definido na var original. 
+	var1 = "novo valor da var1" 
 
 	*/
