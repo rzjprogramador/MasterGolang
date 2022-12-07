@@ -1,4 +1,7 @@
+extensoes_para_golang
+  no_vscode: Go Nightly  versao a mais recente do Go Team at Google: v2022.12.522
 
+---
 
 ver o que significa esta config 
 no "editor.defaultFormatter"
