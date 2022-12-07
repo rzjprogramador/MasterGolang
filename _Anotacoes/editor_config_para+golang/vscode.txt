@@ -1,0 +1,15 @@
+
+
+ver o que significa esta config 
+no "editor.defaultFormatter"
+adicionar ????
+
+"go.vetFlags": [
+      "-composites=false"
+    ],
+
+erro esta dando no poup de informacoes:
+The "gopls" command is not available. Run "go get -v golang.org/x/tools/gopls" to insta
+O comando "gopls" não está disponível. Execute "go get -v golang.org/x/tools/gopls" para instalar.
+
+
