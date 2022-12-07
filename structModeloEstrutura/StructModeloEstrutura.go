@@ -2,12 +2,6 @@ package main
 
 import "fmt"
 
-/*
-* conceito: struct é tipo uma classe com new : é um modelo em tipagem de um objeto entidade.
-* seu uso resulta na criacao de objetosInstancia modelados por ele a estrutura struct.
-* obs: em Go nao tem classes esta estrutura é o que mais se assemelha.
- */
-
 // declaracao struct : a declaracao pode ser feita fora do escopo da funcao.
 
 type Usuario struct {
@@ -43,3 +37,9 @@ func main() {
 	fmt.Println(usuario1.nome)
 	fmt.Println(usuario2.nome)
 }
+
+/*
+* conceito: struct é tipo uma classe com new : é um modelo em tipagem de um objeto entidade.
+* aplicabilidade: seu uso resulta na criacao de objetosInstancia modelados por ele a estrutura struct.
+* obs: em Go nao tem classes esta estrutura é o que mais se assemelha.
+ */
