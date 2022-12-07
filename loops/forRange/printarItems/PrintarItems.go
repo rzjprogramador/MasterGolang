@@ -14,16 +14,3 @@ func PrintarItems(array []string) {
 		fmt.Println(valor)
 	}
 }
-
-/*
-
-# Loops For com Range
-
-significado: Variar Para ...
-
-restricoes: NAO DÁ PARA FAZER FOR COM RANGE EM STRUCTS ESTRUTURAS.
-
--  para ocultar a var que mostra o indice coloque um anderline no lugar.
-
- */
-
