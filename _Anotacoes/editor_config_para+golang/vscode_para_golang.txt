@@ -1,5 +1,12 @@
 extensoes_para_golang
   no_vscode: Go Nightly  versao a mais recente do Go Team at Google: v2022.12.522
+  beneficios: esta extensao ja faz os imports, formata identacao, autocomplete nos arquivos Go...nao preciso adicionar nada ao settings do vscode...posso usar somente esta extensao.
+
+  obs: com esta extensao nao preciso mais usar esta linha no settinhgs do vscode:
+  // config abaixo esta depreciada
+  "[go]": {
+    "editor.defaultFormatter": "golang.go" // formatacao padrao extensao go - pode ser no lugar a gopls --ver na doc a definicao.
+  }
 
 ---
 
