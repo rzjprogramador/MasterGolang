@@ -1,8 +1,8 @@
-package main
+package escritas
 
 import "fmt"
 
-func main() {
+func PrintConsole() {
 	texto := "Meu 1º texto"
 
 	// funcao print , sozinha só printa nao pula linha no console.

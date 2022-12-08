@@ -1,8 +1,8 @@
-package main
+package objetos
 
 import "fmt"
 
-func main() {
+func HerancaEstrutura() {
 	type Pessoa struct {
 		nome   string
 		idade  uint8

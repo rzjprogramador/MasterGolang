@@ -1,4 +1,4 @@
-package main
+package tiposDeDados
 
 import "fmt"
 
@@ -7,7 +7,7 @@ var boleano bool
 var textoDefault string
 var numDefault float32
 
-func main() {
+func ValoresIniciais() {
 	fmt.Println(erro)
 	fmt.Println(boleano)
 	fmt.Println(textoDefault)

@@ -1,8 +1,8 @@
-package main
+package tiposDeDados
 
 import "fmt"
 
-func main() {
+func NumFloat() {
 	// num float : Só existe 32 e 64 e ambos aceitam negativo e positivo
 	var numFloat32 float32 = 100.77
 	var numFloat64 float64 = 100.99

@@ -1,8 +1,8 @@
-package main
+package objetos
 
 import "fmt"
 
-func main() {
+func ObjRigidoMap() {
 	usuarioMap := map[string]string{
 		"nome":      "Reinaldo",
 		"sobrenome": "Zacharias",

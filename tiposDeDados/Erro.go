@@ -1,13 +1,14 @@
-package main
+package tiposDeDados
 
 import (
 	"errors"
 	"fmt"
 )
+
 var erroDefault error
 var meuErrocomValor error = errors.New("Deu um erro qualquer!")
 
-func main() {
+func Erro() {
 	// erro sem valor mas tipado como error retorna um nil nulo por default.
 	fmt.Println(erroDefault)
 

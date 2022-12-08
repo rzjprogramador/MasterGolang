@@ -1,8 +1,8 @@
-package main
+package operadores
 
 import "fmt"
 
-func main() {
+func Logicos() {
 
 	verdadeiro, falso := true, false
 	// foo := "BAR"

@@ -1,15 +1,15 @@
-package main
+package loops
 
 import "fmt"
 
-func main() {
+func PrintarItems() {
 	items := []string{"Reinaldo", "Renata", "Guga"}
 
-	PrintarItems(items)
+	usePrintarItems(items)
 
 }
 
-func PrintarItems(array []string) {
+func usePrintarItems(array []string) {
 	for _, valor := range array {
 		fmt.Println(valor)
 	}

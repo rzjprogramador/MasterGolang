@@ -1,10 +1,6 @@
-package main
+package loops
 
 import "fmt"
-
-func main() {
-	Incrementar()
-}
 
 func Incrementar() {
 

@@ -1,4 +1,4 @@
-package main
+package objetos
 
 import "fmt"
 
@@ -11,7 +11,7 @@ type Usuario struct {
 	estado    bool
 }
 
-func main() {
+func StructModeloEstrutura() {
 
 	// struct formaDeUso1
 	usuario1 := Usuario{

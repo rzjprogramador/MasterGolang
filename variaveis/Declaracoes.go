@@ -1,8 +1,8 @@
-package main
+package variaveis
 
 import "fmt"
 
-func main() {
+func Declaracoes() {
 
 	// declaracao_com_inferencia com o operador "foquinha"  :=
 	var1 := "Valor vars1"

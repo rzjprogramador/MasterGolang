@@ -1,8 +1,8 @@
-package main
+package tiposDeDados
 
 import "fmt"
 
-func main() {
+func NumInteiro() {
 	
 	// uint : Aceita Negativos
 	var numeroInt int = 100

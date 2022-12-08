@@ -1,10 +1,6 @@
-package main
+package loops
 
 import "fmt"
-
-func main() {
-	VariarEmString()
-}
 
 func VariarEmString() {
 	texto := "TEXTO"
@@ -30,7 +26,7 @@ sitaxe: for param1Posicao?, paramConteudoDoItem? := igual numeradoRange? numerar
 	-> posso fazer o que quiser com eles.
 }
 
-consideracoes: o for é como uma funcao nomedoLoop paramPosicao1, paramConteudo2 := range alvoNumeracao { usa os params em loopACadaIteracao } 
+consideracoes: o for é como uma funcao nomedoLoop paramPosicao1, paramConteudo2 := range alvoNumeracao { usa os params em loopACadaIteracao }
 
 restricoes: NAO DÁ PARA FAZER FOR COM RANGE EM STRUCTS ESTRUTURAS.
 
