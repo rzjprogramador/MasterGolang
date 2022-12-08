@@ -26,8 +26,7 @@ func main() {
 OPERADORES UNARIOS
 entrada:
 	descricao: operadores curtos que agem em uma referencia por vez.
-	aplicabilidade: Aumentar  ou Diminuir o valor de uma referencia numero "INCREMENTAR"
-	existentes: sao eles ++ para aumentar , -- para diminuir
+	aplicabilidade: Aumentar, Diminuir, Resto da Divisao em referencias numericas (numeros).
 
 processamento:
  acao: os encurtadores unarios aumentam ou diminuem :
