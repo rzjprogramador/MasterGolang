@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 
-	verdadeiro, falso, foo := true, false, "bar"
+	verdadeiro, falso := true, false
+	// foo := "BAR"
 
 	/*
 	 OPERADORES LOGICOS ( && , ||, ! ) :
