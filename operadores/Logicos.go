@@ -25,6 +25,6 @@ func main() {
 	fmt.Println(!verdadeiro)
 	// operador_NEGACAO : ! inverte o valor bolaeano de uma referencia, se era true vira false e vice e versa
 
-	fmt.Println(!!foo)
+	// fmt.Println(!!foo) // TODO: TENTANDO INVERTER PARA BOLEANO UMA REFERENCIA NAO BOLEANA EM GO
 
 }
