@@ -1,13 +1,14 @@
 package main
 
-// "github.com/MasterGolang/variaveis"
-// "github.com/MasterGolang/conversoes"
-// "github.com/MasterGolang/escritas"
-// "github.com/MasterGolang/loops"
-// "github.com/MasterGolang/modules/math"
-// "github.com/MasterGolang/objetos"
-// "github.com/MasterGolang/operadores"
-// "github.com/MasterGolang/tiposDeDados"
+// import "github.com/MasterGolang/variaveis"
+// import "github.com/MasterGolang/conversoes"
+// import "github.com/MasterGolang/escritas"
+// import "github.com/MasterGolang/loops"
+// import "github.com/MasterGolang/modules/math"
+// import "github.com/MasterGolang/objetos"
+// import "github.com/MasterGolang/operadores"
+// import "github.com/MasterGolang/tiposDeDados"
+import "github.com/MasterGolang/agrupamento"
 
 func main() {
 	print("**** Hello Word - Main **** \n")
@@ -28,4 +29,5 @@ func main() {
 	// tiposDeDados.NumFloat()
 	// tiposDeDados.NumInteiro()
 	// tiposDeDados.ValoresIniciais()
+	agrupamento.ArrayFixo()
 }
