@@ -1,4 +1,4 @@
-package ferramentas
+package ferramentasNativas
 
 import (
 	"fmt"
