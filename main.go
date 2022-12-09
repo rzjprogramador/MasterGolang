@@ -8,7 +8,8 @@ package main
 // import "github.com/MasterGolang/objetos"
 // import "github.com/MasterGolang/operadores"
 // import "github.com/MasterGolang/tiposDeDados"
-import "github.com/MasterGolang/agrupamento"
+// import "github.com/MasterGolang/agrupamento"
+import "github.com/MasterGolang/ferramentas"
 
 func main() {
 	print("**** Hello Word - Main **** \n")
@@ -29,5 +30,7 @@ func main() {
 	// tiposDeDados.NumFloat()
 	// tiposDeDados.NumInteiro()
 	// tiposDeDados.ValoresIniciais()
-	agrupamento.ArrayFixo()
+	// agrupamento.ArrayFixo()
+	// agrupamento.SliceArrayLivre()
+	ferramentas.VerificarTipos()
 }
