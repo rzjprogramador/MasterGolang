@@ -1,0 +1,3 @@
+ferramenats_golang:
+  ver_tamanho: len( alvo )
+  ver_capacidade: cap( alvo )

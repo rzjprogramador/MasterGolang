@@ -8,7 +8,6 @@ package main
 // import "github.com/MasterGolang/objetos"
 // import "github.com/MasterGolang/operadores"
 // import "github.com/MasterGolang/tiposDeDados"
-// import "github.com/MasterGolang/agrupamento"
 import "github.com/MasterGolang/ferramentasNativas"
 
 func main() {
@@ -31,6 +30,7 @@ func main() {
 	// tiposDeDados.NumInteiro()
 	// tiposDeDados.ValoresIniciais()
 	// agrupamento.ArrayFixo()
+	// ferramentasNativas.VerificarTipos()
+	ferramentasNativas.criarSliceDeNumerosNaMemoria()
 	// agrupamento.SliceArrayLivre()
-	ferramentasNativas.VerificarTipos()
 }
