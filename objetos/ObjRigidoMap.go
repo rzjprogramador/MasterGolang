@@ -11,10 +11,8 @@ func ObjRigidoMap() {
 
 	fmt.Println(usuarioMap)
 
-	// acessar valor de chave : obs: somente apssando a chave como string
 	fmt.Println(usuarioMap["nome"])
 
-	// deletar uma prop do map com a funcao delete() 1º param o mapAlvo, 2º em string a chave/prop
 	delete(usuarioMap, "foo")
 	fmt.Println(usuarioMap)
 }
@@ -36,5 +34,9 @@ obs: todas as propriedades tem que ter virgula no final ... inclusive a ultima.
 
 	deletar_prop_do_map:
 	deletar uma prop do map com a funcao delete() 1º param o mapAlvo, 2º em string a chave/prop
+
+	// acessar valor de chave : obs: somente passando a chave como string
+
+	// deletar uma prop do map com a funcao delete() 1º param o mapAlvo, 2º em string a chave/prop
 
 */

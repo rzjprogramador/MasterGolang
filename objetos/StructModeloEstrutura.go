@@ -2,8 +2,6 @@ package objetos
 
 import "fmt"
 
-// declaracao struct : a declaracao pode ser feita fora do escopo da funcao.
-
 type Usuario struct {
 	nome      string
 	sobrenome string
@@ -25,9 +23,6 @@ func StructModeloEstrutura() {
 	var usuario2 Usuario
 	usuario2.nome = "Renata"
 	usuario2.idade = 40
-	/*
-		obs: senao passar todos valores da estrutura ele devolve os valores inicias default das props que estao faltando.
-	*/
 
 	fmt.Println(usuario1) // outup: {Reinaldo Zacharias 45 true}
 
@@ -42,4 +37,10 @@ func StructModeloEstrutura() {
 * conceito: struct é tipo uma classe com new : é um modelo em tipagem de um objeto entidade.
 * aplicabilidade: seu uso resulta na criacao de objetosInstancia modelados por ele a estrutura struct.
 * obs: em Go nao tem classes esta estrutura é o que mais se assemelha.
- */
+
+// declaracao struct : a declaracao pode ser feita fora do escopo da funcao.
+
+	obs: senao passar todos valores da estrutura ele devolve os valores inicias default das props que estao faltando.
+
+
+*/

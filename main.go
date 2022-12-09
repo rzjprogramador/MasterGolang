@@ -20,7 +20,7 @@ func main() {
 	// loops.VariarPorObjetoMap()
 	// fmt.Println(math.Soma(10, 20))
 	// objetos.StructModeloEstrutura()
-	// objetos.HerancaEstrutura()
+	// objetos.ComposicaoEstrutura()
 	// objetos.ObjRigidoMap()
 	// operadores.Logicos()
 	// operadores.Unarios()

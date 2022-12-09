@@ -16,10 +16,14 @@ func Unarios() {
 	restoDivisao := 10
 	restoDivisao %= 3
 
-	fmt.Println(aumentar) // comecou com 10, aumentou 2 vezes de 1 deu 12, aumentou 55, total: 67
-	fmt.Println(diminuir) // comecou com 20, diminuiu 2 vezes de 1 deu 18, diminuiu -10 total: 8
+	fmt.Println(aumentar)
+	// comecou com 10, aumentou 2 vezes de 1 deu 12, aumentou 55, total: 67
 
-	fmt.Println(restoDivisao) // comecou com 10 , fez o resto da divisao por 3 , entao 10 divido por 3 da 3 e resta 1, o resultado de saida é sempre o que resta da divisao passada.
+	fmt.Println(diminuir)
+	// comecou com 20, diminuiu 2 vezes de 1 deu 18, diminuiu -10 total: 8
+
+	fmt.Println(restoDivisao)
+	// comecou com 10 , fez o resto da divisao por 3 , entao 10 divido por 3 da 3 e resta 1, o resultado de saida é sempre o que resta da divisao passada.
 }
 
 /*

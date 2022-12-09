@@ -5,10 +5,6 @@ import "fmt"
 func VariarEmString() {
 	texto := "TEXTO"
 	for posicao, letra := range texto {
-		// VAI PRINTAR EM TABELA ASC
-		// fmt.Println(posicao, letra)
-
-		// VAI PRINTAR EM STRING
 		fmt.Println(posicao, string(letra))
 	}
 }
@@ -31,5 +27,10 @@ consideracoes: o for é como uma funcao nomedoLoop paramPosicao1, paramConteudo2
 restricoes: NAO DÁ PARA FAZER FOR COM RANGE EM STRUCTS ESTRUTURAS.
 
 -  para ocultar a var que mostra o indice coloque um anderline no lugar.
+
+// VAI PRINTAR EM TABELA ASC
+		// fmt.Println(posicao, letra)
+
+		// VAI PRINTAR EM STRING
 
 */

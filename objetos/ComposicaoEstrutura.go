@@ -2,7 +2,7 @@ package objetos
 
 import "fmt"
 
-func HerancaEstrutura() {
+func ComposicaoEstrutura() {
 	type Pessoa struct {
 		nome   string
 		idade  uint8
