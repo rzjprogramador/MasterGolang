@@ -3,10 +3,12 @@ package fluxo
 import "fmt"
 
 func SwitchCase() {
-	fmt.Println(diaDaSemana((10)))
+	fmt.Println(diaDaSemana1((10)))
+	fmt.Println(diaDaSemana2((1)))
 }
 
-func diaDaSemana(numero uint8) string {
+// forma1
+func diaDaSemana1(numero uint8) string {
 	switch numero {
 	case 1:
 		return "Domingo"
@@ -14,6 +16,23 @@ func diaDaSemana(numero uint8) string {
 		return "Segunda-Feira"
 	}
 	return "Default : entrada Invalida"
+}
+
+// forma2
+func diaDaSemana2(numero uint8) string {
+	var diaDaSemana string
+
+	switch {
+	case numero == 1:
+		diaDaSemana = "Domingo"
+	case numero == 2:
+		diaDaSemana = "Segunda-Feira"
+
+	default:
+		diaDaSemana = "Default : entrada invalida"
+	}
+	return diaDaSemana
+
 }
 
 /*
