@@ -30,7 +30,8 @@ func main() {
 	// tiposDeDados.NumInteiro()
 	// tiposDeDados.ValoresIniciais()
 	// agrupamento.ArrayFixo()
-	// ferramentasNativas.VerificarTipos()
-	ferramentasNativas.criarSliceDeNumerosNaMemoria()
 	// agrupamento.SliceArrayLivre()
+	// ferramentasNativas.VerificarTipos()
+	// ferramentasNativas.criarSliceDeNumerosNaMemoria()
+	ferramentasNativas.Textos()
 }
