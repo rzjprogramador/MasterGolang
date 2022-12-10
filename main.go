@@ -6,9 +6,10 @@ package main
 // import "github.com/MasterGolang/loops"
 // import "github.com/MasterGolang/modules/math"
 // import "github.com/MasterGolang/objetos"
-// import "github.com/MasterGolang/operadores"
+import "github.com/MasterGolang/operadores"
+
 // import "github.com/MasterGolang/tiposDeDados"
-import "github.com/MasterGolang/ferramentasNativas"
+// import "github.com/MasterGolang/ferramentasNativas"
 
 func main() {
 	print("**** Hello Word - Main **** \n")
@@ -25,6 +26,7 @@ func main() {
 	// objetos.ObjRigidoMap()
 	// operadores.Logicos()
 	// operadores.Unarios()
+	operadores.Relacionais()
 	// tiposDeDados.Erro()
 	// tiposDeDados.NumFloat()
 	// tiposDeDados.NumInteiro()
@@ -33,5 +35,5 @@ func main() {
 	// agrupamento.SliceArrayLivre()
 	// ferramentasNativas.VerificarTipos()
 	// ferramentasNativas.criarSliceDeNumerosNaMemoria()
-	ferramentasNativas.Textos()
+	// ferramentasNativas.Textos()
 }
