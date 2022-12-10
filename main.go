@@ -11,6 +11,7 @@ package main
 // import "github.com/MasterGolang/tiposDeDados"
 // import "github.com/MasterGolang/ferramentasNativas"
 // import "github.com/MasterGolang/fluxo"
+import "github.com/MasterGolang/funcoes"
 
 func main() {
 	print("**** Hello Word - Main **** \n")
@@ -38,4 +39,5 @@ func main() {
 	// ferramentasNativas.criarSliceDeNumerosNaMemoria()
 	// ferramentasNativas.Textos()
 	// fluxo.SwitchCase()
+	funcoes.RetornandoMaisQueUmaVar()
 }
