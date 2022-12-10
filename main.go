@@ -40,5 +40,5 @@ func main() {
 	// ferramentasNativas.Textos()
 	// fluxo.SwitchCase()
 	// funcoes.RetornandoMaisQueUmaVar()
-	funcoes.MultiplasEntradas()
+	funcoes.ReduceDeMultiplasEntradas()
 }

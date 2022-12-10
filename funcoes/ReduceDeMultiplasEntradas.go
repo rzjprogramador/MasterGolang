@@ -2,11 +2,11 @@ package funcoes
 
 import "fmt"
 
-func MultiplasEntradas() {
-	fmt.Println(reduceSomaFloat64(100, 100.1, 100.77))
+func ReduceDeMultiplasEntradas() {
+	fmt.Println(useReduceSomaFloat64(100, 100.1, 100.77))
 }
 
-func reduceSomaFloat64(numeros ...float64) float64 {
+func useReduceSomaFloat64(numeros ...float64) float64 {
 	total := 0.0
 	for _, numero := range numeros {
 		total += numero
