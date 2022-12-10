@@ -10,7 +10,7 @@ package main
 
 // import "github.com/MasterGolang/tiposDeDados"
 // import "github.com/MasterGolang/ferramentasNativas"
-import "github.com/MasterGolang/fluxo"
+// import "github.com/MasterGolang/fluxo"
 
 func main() {
 	print("**** Hello Word - Main **** \n")
@@ -37,5 +37,5 @@ func main() {
 	// ferramentasNativas.VerificarTipos()
 	// ferramentasNativas.criarSliceDeNumerosNaMemoria()
 	// ferramentasNativas.Textos()
-	fluxo.SwitchCase()
+	// fluxo.SwitchCase()
 }
