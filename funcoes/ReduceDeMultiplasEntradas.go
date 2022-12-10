@@ -17,7 +17,7 @@ func useReduceSomaFloat64(numeros ...float64) float64 {
 /*
 funcoes_com_parametros_variaticos:
 
-significado: podemndo receber dibversos parametros e opcionais , se nao passar nenhum arg ele cria um slice vazio.
+significado: podemos receber diversos parametros e opcionais , se nao passar nenhum arg ele cria um slice vazio.
 
   conceito: pode receber diversos params, sendo assim sempre terá um slice que podera ser iterado e resultar um valor reduzido deste slice no caso da entrada ser numerica.
 	podemos fazer um semelhante reduce do js.
