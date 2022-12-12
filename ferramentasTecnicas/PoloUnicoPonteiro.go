@@ -11,7 +11,7 @@ func PoloUnicoPonteiro() {
 	useVarPonteiro2 := &varPonteiro2
 	log.Println(*useVarPonteiro2)
 
-	varPonteiro2 = 1000
+	varPonteiro2 = 100
 	log.Println(*useVarPonteiro2)
 }
 
