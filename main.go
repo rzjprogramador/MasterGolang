@@ -3,7 +3,7 @@ package main
 import (
 	// "log"
 
-	"github.com/MasterGolang/clausulas"
+	"github.com/MasterGolang/ferramentasFuncoes"
 	// "github.com/MasterGolang/ferramentasNativas"
 	// "github.com/MasterGolang/ferramentasTecnicas"
 	// "github.com/MasterGolang/funcoes"
@@ -25,8 +25,8 @@ import (
 func main() {
 	print("**** Hello Word - Main **** \n")
 
-	// clausulas.DeferAdiarExecucao()
-	clausulas.ExecuteAvaliacaoAluno()
+	// ferramentasFuncoes.DeferAdiarExecucao()
+	ferramentasFuncoes.ExecuteAvaliacaoAlunoAdiando()
 
 	// ferramentasTecnicas.PoloUnicoPonteiro()
 	// funcoes.RetornandoMaisQueUmaVar()

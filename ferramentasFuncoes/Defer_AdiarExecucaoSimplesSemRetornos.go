@@ -1,42 +1,20 @@
-package clausulas
+package ferramentasFuncoes
 
 import (
-	"fmt"
 	"log"
 )
 
 func funcao1() {
-	fmt.Println("valor funcao 1")
+	log.Println("valor funcao 1")
 }
 
 func funcao2() {
-	fmt.Println("valor funcao 2")
+	log.Println("valor funcao 2")
 }
 
 func DeferAdiarExecucao() {
 	defer funcao1()
 	funcao2()
-}
-
-// ---
-func avaliacaoAluno(n1, n2 int) bool {
-
-	defer log.Println("Media calculada o resultado sera calculado ..esta msg é pra apos o retorno sendo true ou false")
-
-	fmt.Println("Entrando na avaliacao do aluno.")
-
-	mediaAceita := int(6)
-	media := (n1 + n2) / 2
-
-	if media >= mediaAceita {
-		return true
-	}
-	return false
-
-}
-
-func ExecuteAvaliacaoAluno() {
-	fmt.Println(avaliacaoAluno(10, 10))
 }
 
 /*
