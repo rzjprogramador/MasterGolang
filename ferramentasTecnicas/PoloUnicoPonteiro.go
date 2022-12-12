@@ -16,6 +16,8 @@ func PoloUnicoPonteiro() {
 }
 
 /*
+resumo: o ponteiro nao guarda valor ele guarda um endereco de memoria com o valor pra vc acessar o valor guardado nele vc tem que usar o "*" asteristico. e quem quiser ter este valorVerdade tem que ter sido antes atribuido com "&" .
+
 conceito: a var ponteiro aponta um endereco na memoria um poloUnicoDaVerdade que ao ser compartilhado atribuido com "&" leva sempre o valor atual do estado da variavelPonteiro que é o poloUnicoDaVerdade desta variavel.
 quem tiver usando este valor com & sempre estara tendo o valor atual do poloUnicoPonteiro
 
