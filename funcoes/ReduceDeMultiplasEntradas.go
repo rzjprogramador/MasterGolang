@@ -1,9 +1,9 @@
 package funcoes
 
-import "fmt"
+import "log"
 
 func ReduceDeMultiplasEntradas() {
-	fmt.Println(useReduceSomaFloat64(100, 100.1, 100.77))
+	log.Println(useReduceSomaFloat64(100, 100.1, 100.77))
 }
 
 func useReduceSomaFloat64(numeros ...float64) float64 {
