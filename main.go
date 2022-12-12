@@ -25,8 +25,9 @@ import (
 func main() {
 	print("**** Hello Word - Main **** \n")
 
-	// ferramentasFuncoes.DeferAdiarExecucao()
+	ferramentasFuncoes.ExecuteDeferAdiarExecucao()
 	ferramentasFuncoes.ExecuteAvaliacaoAlunoAdiando()
+	ferramentasFuncoes.ExecutePanic()
 
 	// ferramentasTecnicas.PoloUnicoPonteiro()
 	// funcoes.RetornandoMaisQueUmaVar()

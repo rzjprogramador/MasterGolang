@@ -12,7 +12,7 @@ func funcao2() {
 	log.Println("valor funcao 2")
 }
 
-func DeferAdiarExecucao() {
+func ExecuteDeferAdiarExecucao() {
 	defer funcao1()
 	funcao2()
 }

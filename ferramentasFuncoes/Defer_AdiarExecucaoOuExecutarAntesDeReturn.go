@@ -7,7 +7,7 @@ import (
 
 // --- exemplo 2 Defer Adiando
 
-func AvaliacaoAlunoAdiando(n1, n2 int) bool {
+func avaliacaoAluno(n1, n2 int) bool {
 
 	defer log.Println("Media calculada o resultado sera calculado ..esta msg é pra apos o retorno sendo true ou false")
 
@@ -23,6 +23,8 @@ func AvaliacaoAlunoAdiando(n1, n2 int) bool {
 
 }
 
+// sera executado no main
+
 func ExecuteAvaliacaoAlunoAdiando() {
-	fmt.Println(AvaliacaoAlunoAdiando(10, 10))
+	fmt.Println(avaliacaoAluno(10, 10))
 }
