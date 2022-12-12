@@ -18,6 +18,7 @@ func hasAprovado(num1, num2 float64) bool {
 		return false
 	}
 	panic("A MEDIA É EXATAMENTE 6")
+
 }
 
 func ExecutePanic() {
@@ -30,6 +31,8 @@ resumo: panic() vai estourar erro caso o resultado da funcao seja exatamente o q
 
 panic:
 panic sera uma excessao se a funcao der o resultado especifico que nao quero ela entra em panico como se fosse um throw e interrompe a execucao e o programa é abortado ele para entra em panico. se eu definir que tera panico caso isto acontecer com panic()
+
+* funcao panic() Terá o que vai ser mostrado caso o resultado seja exatamente o nao esperado ... o nao esperado virá da condicao..ou seja na condicional definiremos o que nao queremos e o panic sera gerado atravez desta condicao.
 
 ele em panico vai chamar qualquer funcao que tenha sidoa diada com defer
 
