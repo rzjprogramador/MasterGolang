@@ -1,44 +1,22 @@
 package main
 
-// import "github.com/MasterGolang/variaveis"
-// import "github.com/MasterGolang/conversoes"
-// import "github.com/MasterGolang/escritas"
-// import "github.com/MasterGolang/loops"
-// import "github.com/MasterGolang/modules/math"
-// import "github.com/MasterGolang/objetos"
-// import "github.com/MasterGolang/operadores"
+import (
+	// "log"
 
-// import "github.com/MasterGolang/tiposDeDados"
-// import "github.com/MasterGolang/ferramentasNativas"
-// import "github.com/MasterGolang/fluxo"
-// import "github.com/MasterGolang/funcoes"
+	"github.com/MasterGolang/ferramentasNativas"
+	"github.com/MasterGolang/ferramentasTecnicas"
+	"github.com/MasterGolang/funcoes"
+)
 
 func main() {
 	print("**** Hello Word - Main **** \n")
-	// variaveis.Declaracoes()
-	// conversoes.StringParaNumero()
-	// escritas.PrintConsole()
-	// loops.Incrementar()
-	// loops.PrintarItems()
-	// loops.VariarEmString()
-	// loops.VariarPorObjetoMap()
-	// fmt.Println(math.Soma(10, 20))
-	// objetos.StructModeloEstrutura()
-	// objetos.ComposicaoEstrutura()
-	// objetos.ObjRigidoMap()
-	// operadores.Logicos()
-	// operadores.Unarios()
-	// operadores.Relacionais()
-	// tiposDeDados.Erro()
-	// tiposDeDados.NumFloat()
-	// tiposDeDados.NumInteiro()
-	// tiposDeDados.ValoresIniciais()
-	// agrupamento.ArrayFixo()
-	// agrupamento.SliceArrayLivre()
-	// ferramentasNativas.VerificarTipos()
-	// ferramentasNativas.criarSliceDeNumerosNaMemoria()
-	// ferramentasNativas.Textos()
-	// fluxo.SwitchCase()
-	// funcoes.RetornandoMaisQueUmaVar()
-	// funcoes.ReduceDeMultiplasEntradas()
+
+	ferramentasTecnicas.PoloUnicoPonteiro()
+	funcoes.RetornandoMaisQueUmaVar()
+	funcoes.ReduceDeMultiplasEntradas()
+	ferramentasNativas.VerificarTipos()
+	ferramentasNativas.Textos()
+
+	// log.Println(base.Base())
+
 }
