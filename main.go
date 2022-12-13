@@ -7,7 +7,7 @@ import (
 	// "github.com/MasterGolang/ferramentasFuncoes"
 	// "github.com/MasterGolang/ferramentasNativas"
 	// "github.com/MasterGolang/ferramentasTecnicas"
-	// "github.com/MasterGolang/funcoes"
+	"github.com/MasterGolang/funcoes"
 	// "github.com/MasterGolang/ferramentasNativas"
 	// "github.com/MasterGolang/ferramentasTecnicas"
 	// "github.com/MasterGolang/funcoes"
@@ -62,5 +62,6 @@ func main() {
 
 	// log.Println(math.Soma(10, 100))
 	// funcoes.FuncoesAnonimas()
+	funcoes.ExecuteClosure()
 
 }
