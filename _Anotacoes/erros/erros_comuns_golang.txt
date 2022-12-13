@@ -1,11 +1,19 @@
 # erros_comuns_golang :
 
 ---
-
 escopo_inacessivel:
+tipo_erro: sintaxe
 erro : unreachable codeunreachable
 significado: escopo inacessivel
 causa : vc esta tentando executar dois artefatos que nao estao no mesmo escopo.
 solucao: colocar os artefatos no emsmo escopo para quem possam se enxergar e assim executar algo que queira.
+
+---
+tipo_erro: sintaxe
+erro: syntax error: non-declaration statement outside function body
+significado: erro de sintaxe: declaração sem declaração fora do corpo da função
+causa: esta tentando usar algo sem estar dentro do escopo de uma funcao.
+solucao: colocar o que esta tentando executar dentrod o escopod e uma funcao
+casos: a importacao de um pacote , pode estar fora da funcao import() onde quer usar.
 
 ---
