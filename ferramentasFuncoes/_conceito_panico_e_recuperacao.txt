@@ -9,6 +9,7 @@ funcaoPrincipal:
 - faz sua funcao principal que vai receber um input
 - para abortar o fluxo: avalia o input se ele é exatamente o que nao deseja.
 - obs: escopo :: a var a ser avalida tem que estar no mesmo escopo da funcao panic que vai abortar e mostrar uma mensagem feedback.
+senao da escopo inacessivel :: com o erro : unreachable codeunreachable
 
 - obs: ao abortar o panic vai procurar para executar as funcoes adiadas com defer, entao vamos ja deixar uma por perto para ser chamada apos o panico e recuperar a execucao.
 
