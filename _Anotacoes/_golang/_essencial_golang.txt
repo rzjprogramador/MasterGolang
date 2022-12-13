@@ -1,0 +1,4 @@
+
+cada pasta só pode ter 1 func main() 
+ela é o root raiz do modulo em questao.
+o arquivo root do modulo nao precisa se chamar main , pode se chamar nomeDoModulo.go 
