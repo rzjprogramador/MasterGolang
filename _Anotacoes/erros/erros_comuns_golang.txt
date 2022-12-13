@@ -1,0 +1,11 @@
+# erros_comuns_golang :
+
+---
+
+escopo_inacessivel:
+erro : unreachable codeunreachable
+significado: escopo inacessivel
+causa : vc esta tentando executar dois artefatos que nao estao no mesmo escopo.
+solucao: colocar os artefatos no emsmo escopo para quem possam se enxergar e assim executar algo que queira.
+
+---
