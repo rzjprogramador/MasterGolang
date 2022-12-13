@@ -4,7 +4,7 @@ import (
 
 	// "log"
 
-	"github.com/MasterGolang/ferramentasFuncoes"
+	// "github.com/MasterGolang/ferramentasFuncoes"
 	// "github.com/MasterGolang/ferramentasNativas"
 	// "github.com/MasterGolang/ferramentasTecnicas"
 	// "github.com/MasterGolang/funcoes"
@@ -29,7 +29,7 @@ func main() {
 	// ferramentasFuncoes.ExecuteDeferAdiarExecucao()
 	// ferramentasFuncoes.ExecuteAvaliacaoAlunoAdiando()
 	// ferramentasFuncoes.ExecutePanic()
-	ferramentasFuncoes.ExecutePanicEstudando2()
+	// ferramentasFuncoes.ExecutePanicEstudando2()
 
 	// ferramentasTecnicas.PoloUnicoPonteiro()
 	// funcoes.RetornandoMaisQueUmaVar()
