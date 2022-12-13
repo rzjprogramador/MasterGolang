@@ -1,6 +1,7 @@
 package main
 
 import (
+
 	// "log"
 
 	"github.com/MasterGolang/ferramentasFuncoes"
@@ -23,11 +24,12 @@ import (
 )
 
 func main() {
-	print("**** Hello Word - Main **** \n")
+	// print("**** Hello Word - Main **** \n")
 
-	ferramentasFuncoes.ExecuteDeferAdiarExecucao()
-	ferramentasFuncoes.ExecuteAvaliacaoAlunoAdiando()
-	ferramentasFuncoes.ExecutePanic()
+	// ferramentasFuncoes.ExecuteDeferAdiarExecucao()
+	// ferramentasFuncoes.ExecuteAvaliacaoAlunoAdiando()
+	// ferramentasFuncoes.ExecutePanic()
+	ferramentasFuncoes.ExecutePanicEstudando2()
 
 	// ferramentasTecnicas.PoloUnicoPonteiro()
 	// funcoes.RetornandoMaisQueUmaVar()
