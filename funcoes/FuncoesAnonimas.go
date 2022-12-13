@@ -5,6 +5,10 @@ import (
 	"log"
 )
 
+func init() {
+	fmt.Println("executando func init do arquivo : FuncoesAnonimas")
+}
+
 func FuncoesAnonimas() {
 
 	func(texto string) {
