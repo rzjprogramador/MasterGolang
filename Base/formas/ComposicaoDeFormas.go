@@ -1,8 +1,8 @@
-package objetos
+package formas
 
 import "fmt"
 
-func ComposicaoEstrutura() {
+func ComposicaoDeFormas() {
 	type Pessoa struct {
 		nome   string
 		idade  uint8

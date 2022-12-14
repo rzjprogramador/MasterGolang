@@ -14,7 +14,7 @@ package main
 // // "github.com/MasterGolang/Base/escritas"
 // // "github.com/MasterGolang/Base/fluxo"
 // // "github.com/MasterGolang/Base/loops"
-// // "github.com/MasterGolang/Base/objetos"
+// // "github.com/MasterGolang/Base/formas"
 // // "github.com/MasterGolang/Base/operadores"
 // // "github.com/MasterGolang/Base/tiposDeDados"
 // // "github.com/MasterGolang/Base/variaveis"
@@ -43,9 +43,9 @@ func main() {
 	// loops.VariarEmString()
 	// loops.VariarPorObjetoMap()
 
-	// objetos.StructModeloEstrutura()
-	// objetos.ComposicaoEstrutura()
-	// objetos.ObjRigidoMap()
+	// formas.StructModeloEstrutura()
+	// formas.ComposicaoDeFormas()
+	// formas.ObjRigidoMap()
 
 	// operadores.Logicos()
 
