@@ -1,0 +1,4 @@
+
+perguntar: perguntar é fazer uma verificacao ex: if
+
+tem_algum_valor: nao tem ... é diferente de nulo , exemplo: "``` != nil ```",
