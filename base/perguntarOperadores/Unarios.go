@@ -1,4 +1,4 @@
-package operadores
+package perguntarOperadores
 
 import "fmt"
 

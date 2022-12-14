@@ -9,15 +9,15 @@ package main
 // // "github.com/MasterGolang/ferramentasNativas"
 // // "github.com/MasterGolang/ferramentasTecnicas"
 // // "github.com/MasterGolang/funcoes"
-// // "github.com/MasterGolang/Base/agrupamento"
-// // "github.com/MasterGolang/Base/conversoes"
-// // "github.com/MasterGolang/Base/escritas"
-// // "github.com/MasterGolang/Base/fluxo"
-// // "github.com/MasterGolang/Base/loops"
-// // "github.com/MasterGolang/Base/formas"
-// // "github.com/MasterGolang/Base/operadores"
-// // "github.com/MasterGolang/Base/tiposDeDados"
-// // "github.com/MasterGolang/Base/variaveis"
+// // "github.com/MasterGolang/base/agrupamento"
+// // "github.com/MasterGolang/base/conversoes"
+// // "github.com/MasterGolang/base/escritas"
+// // "github.com/MasterGolang/base/fluxo"
+// // "github.com/MasterGolang/base/loops"
+// // "github.com/MasterGolang/base/formas"
+// // "github.com/MasterGolang/base/perguntarOperadores"
+// // "github.com/MasterGolang/base/tiposDeDados"
+// // "github.com/MasterGolang/base/variaveis"
 // // "github.com/MasterGolang/modules/math"
 // )
 
@@ -29,8 +29,8 @@ func main() {
 	// ferramentasNativas.VerificarTipos()
 	// ferramentasNativas.Textos()
 
-	// Base
-	// log.Println(base.Base())
+	// base
+	// log.Println(base.base())
 
 	// variaveis.Declaracoes()
 
@@ -47,11 +47,11 @@ func main() {
 	// formas.ComposicaoDeFormas()
 	// formas.ObjRigidoMap()
 
-	// operadores.Logicos()
+	// perguntarOperadores.Logicos()
 
-	// operadores.Unarios()
+	// perguntarOperadores.Unarios()
 
-	// operadores.Relacionais()
+	// perguntarOperadores.Relacionais()
 
 	// tiposDeDados.Erro()
 
