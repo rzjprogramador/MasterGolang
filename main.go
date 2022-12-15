@@ -79,6 +79,6 @@ func main() {
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
 
-	fmt.Println(exemplo.ExemploEstruturadaOperacaoSoma(40, 50))
+	fmt.Println(exemplo.Sum(40, 10))
 
 }

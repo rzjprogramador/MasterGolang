@@ -2,15 +2,18 @@ package exemplo
 
 import "fmt"
 
-func ExemploEstruturadaOperacaoSoma(a, b int) int {
-	result, err := soma(a, b)
+// type SumOut uint | error
+// type SumOut uint error
+
+func Sum(a, b uint) uint {
+	result, err := useSum(a, b)
 	if err != nil {
 		fmt.Println(err)
 	}
 	return result
 }
 
-func soma(a, b int) (int, error) {
+func useSum(a, b uint) (uint, error) {
 	if a+b > 100 {
 		return 0, fmt.Errorf("Resultado nao pode ser maior que 100")
 	}
@@ -19,6 +22,13 @@ func soma(a, b int) (int, error) {
 
 /*
 implementacao:
+
+resumo: fazer 2 acoes: [
+	1- a logicaPrivada para moldar falha e sucesso,
+	2- a executadoraPublicaRespondedora  que vai dar a resposta de falha e sucesso
+	 executando a logica() capturando o sucesso e erro ,
+	 verificando se tem erro responde este erro e depois responde tbm sucesso
+	]
 
 - fazer acaoLocalLogica() ::
 que sera a logica, tera a regra de negocio, avaliada senao passar na regra vai retornar um feedback de excessao definido aqui....
