@@ -1,4 +1,4 @@
-package ferramentasFuncoes
+package ferramentasAcoes
 
 import "log"
 

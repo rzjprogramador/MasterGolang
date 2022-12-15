@@ -1,14 +1,14 @@
 package main
 
-import (
+// import (
 	// 	// "log"
 
-	// // "github.com/MasterGolang/ferramentasacoes"
+	// "github.com/MasterGolang/ferramentasAcoes"
 	// // "github.com/MasterGolang/ferramentasNativas"
 	// // "github.com/MasterGolang/ferramentasTecnicas"
 	// // "github.com/MasterGolang/ferramentasNativas"
 	// // "github.com/MasterGolang/ferramentasTecnicas"
-	"github.com/MasterGolang/acoes"
+	// "github.com/MasterGolang/acoes"
 	// // "github.com/MasterGolang/base/agrupamento"
 	// // "github.com/MasterGolang/base/conversoes"
 	// // "github.com/MasterGolang/base/escritas"
@@ -19,7 +19,7 @@ import (
 	// // "github.com/MasterGolang/base/tiposDeDados"
 	// // "github.com/MasterGolang/base/variaveis"
 	// // "github.com/MasterGolang/operacoes/math"
-)
+// )
 
 func main() {
 	// print("**** Hello Word - Main **** \n")
@@ -69,14 +69,14 @@ func main() {
 
 	// log.Println(math.Soma(10, 100))
 
-	acoes.RetornandoMaisQueUmaVar()
-	acoes.ReduceDeMultiplasEntradas()
-	acoes.AcoesAnonimas()
-	acoes.ExecuteClosure()
+	// acoes.RetornandoMaisQueUmaVar()
+	// acoes.ReduceDeMultiplasEntradas()
+	// acoes.AcoesAnonimas()
+	// acoes.ExecuteClosure()
 
-	// ferramentasacoes.ExecuteDeferAdiarExecucao()
-	// ferramentasacoes.ExecuteAvaliacaoAlunoAdiando()
-	// ferramentasacoes.ExecutePanic()
-	// ferramentasacoes.ExecutePanicEstudando2()
+	ferramentasAcoes.ExecuteDeferAdiarExecucao()
+	ferramentasAcoes.ExecuteAvaliacaoAlunoAdiando()
+	ferramentasAcoes.ExecutePanic()
+	ferramentasAcoes.ExecutePanicEstudando2()
 
 }
