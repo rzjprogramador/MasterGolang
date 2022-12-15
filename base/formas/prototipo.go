@@ -9,9 +9,19 @@ type Car struct {
 
 var car1 = Car{"Fusca", 1000}
 
-func createCar(inputCar Car) Car {
-	car := inputCar
-	return car
+func handleCreateCar(car Car) Car {
+	result, err := useCreateCar(car)
+	if err != nil {
+		fmt.Errorf(err)
+	}
+	return result
+}
+
+func useCreateCar(inputCar Car) (Car error) {
+	if inputCar.nome == " " {
+		return 0, fmt.Errorf("Erro ao criar carro")
+	}
+	return inputCar, nil
 }
 
 // add metodo no prototipo da  struct de Car
@@ -24,9 +34,9 @@ func (c Car) showNumeracaoProto() uint {
 }
 
 func ExecuteCar() {
-	fmt.Println(createCar(car1))
-	fmt.Println(car1.andarProto())
-	fmt.Println(car1.showNumeracaoProto())
+	fmt.Println(handleCreateCar(car1))
+	// fmt.Println(car1.andarProto())
+	// fmt.Println(car1.showNumeracaoProto())
 }
 
 /*
