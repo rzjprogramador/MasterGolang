@@ -1,4 +1,4 @@
-package funcoes
+package acoes
 
 import "log"
 
@@ -15,7 +15,7 @@ func useReduceSomaFloat64(numeros ...float64) float64 {
 }
 
 /*
-funcoes_com_parametros_variaticos:
+acoes_com_parametros_variaticos:
 
 significado: podemos receber diversos parametros e opcionais , se nao passar nenhum arg ele cria um slice vazio.
 

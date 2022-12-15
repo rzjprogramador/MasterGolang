@@ -1,4 +1,4 @@
-package funcoes
+package acoes
 
 import (
 	"fmt"
@@ -6,10 +6,10 @@ import (
 )
 
 func init() {
-	fmt.Println("executando func init do arquivo : FuncoesAnonimas")
+	fmt.Println("executando func init do arquivo : acoesAnonimas")
 }
 
-func FuncoesAnonimas() {
+func AcoesAnonimas() {
 
 	func(texto string) {
 		log.Println(texto)
@@ -23,7 +23,7 @@ func FuncoesAnonimas() {
 }
 
 /*
-funcoes_anonimas:
+acoes_anonimas:
 declara a funcao sem nome, e logo apos executa com os () parenteses.
 se tiver parametros posso declara-los normal dentro dos parenteses depois da clausula func
 a resposta dos param os args recupero nos () de execucao apos o bloco da funcao.

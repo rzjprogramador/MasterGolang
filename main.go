@@ -1,25 +1,25 @@
 package main
 
-// import (
-// 	// "log"
+import (
+	// 	// "log"
 
-// // "github.com/MasterGolang/ferramentasFuncoes"
-// // "github.com/MasterGolang/ferramentasNativas"
-// // "github.com/MasterGolang/ferramentasTecnicas"
-// // "github.com/MasterGolang/ferramentasNativas"
-// // "github.com/MasterGolang/ferramentasTecnicas"
-// // "github.com/MasterGolang/funcoes"
-// // "github.com/MasterGolang/base/agrupamento"
-// // "github.com/MasterGolang/base/conversoes"
-// // "github.com/MasterGolang/base/escritas"
-// // "github.com/MasterGolang/base/fluxo"
-// // "github.com/MasterGolang/base/loops"
-// // "github.com/MasterGolang/base/formas"
-// // "github.com/MasterGolang/base/perguntarOperadores"
-// // "github.com/MasterGolang/base/tiposDeDados"
-// // "github.com/MasterGolang/base/variaveis"
-// // "github.com/MasterGolang/modules/math"
-// )
+	// // "github.com/MasterGolang/ferramentasacoes"
+	// // "github.com/MasterGolang/ferramentasNativas"
+	// // "github.com/MasterGolang/ferramentasTecnicas"
+	// // "github.com/MasterGolang/ferramentasNativas"
+	// // "github.com/MasterGolang/ferramentasTecnicas"
+	"github.com/MasterGolang/acoes"
+	// // "github.com/MasterGolang/base/agrupamento"
+	// // "github.com/MasterGolang/base/conversoes"
+	// // "github.com/MasterGolang/base/escritas"
+	// // "github.com/MasterGolang/base/fluxo"
+	// // "github.com/MasterGolang/base/loops"
+	// // "github.com/MasterGolang/base/formas"
+	// // "github.com/MasterGolang/base/perguntarOperadores"
+	// // "github.com/MasterGolang/base/tiposDeDados"
+	// // "github.com/MasterGolang/base/variaveis"
+	// // "github.com/MasterGolang/operacoes/math"
+)
 
 func main() {
 	// print("**** Hello Word - Main **** \n")
@@ -69,13 +69,14 @@ func main() {
 
 	// log.Println(math.Soma(10, 100))
 
-	// funcoes.RetornandoMaisQueUmaVar()
-	// funcoes.ReduceDeMultiplasEntradas()
-	// funcoes.FuncoesAnonimas()
-	// funcoes.ExecuteClosure()
-	// ferramentasFuncoes.ExecuteDeferAdiarExecucao()
-	// ferramentasFuncoes.ExecuteAvaliacaoAlunoAdiando()
-	// ferramentasFuncoes.ExecutePanic()
-	// ferramentasFuncoes.ExecutePanicEstudando2()
+	acoes.RetornandoMaisQueUmaVar()
+	acoes.ReduceDeMultiplasEntradas()
+	acoes.AcoesAnonimas()
+	acoes.ExecuteClosure()
+
+	// ferramentasacoes.ExecuteDeferAdiarExecucao()
+	// ferramentasacoes.ExecuteAvaliacaoAlunoAdiando()
+	// ferramentasacoes.ExecutePanic()
+	// ferramentasacoes.ExecutePanicEstudando2()
 
 }

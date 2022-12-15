@@ -1,11 +1,11 @@
-package funcoes
+package acoes
 
 import "fmt"
 
 func init() {
 	varGlobal1 := "este valor é global"
 
-	fmt.Printf("executando a funcao init no arquivo FuncaoInit.go do package funcoes, compartilhando uma varGlobal1 com o valor :: %s", varGlobal1)
+	fmt.Printf("executando a funcao init no arquivo FuncaoInit.go do package acoes, compartilhando uma varGlobal1 com o valor :: %s", varGlobal1)
 }
 
 /*
