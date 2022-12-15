@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
-import exemplo "github.com/MasterGolang/exemplos"
+// import exemplo "github.com/MasterGolang/exemplos"
 
 // import "github.com/MasterGolang/ferramentasAcoes"
 // import "github.com/MasterGolang/ferramentasNativas"
@@ -79,6 +77,6 @@ func main() {
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
 
-	fmt.Println(exemplo.Sum(40, 10))
+	// fmt.Println(exemplo.Sum(40, 10))
 
 }

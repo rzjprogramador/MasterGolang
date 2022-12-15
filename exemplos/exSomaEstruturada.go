@@ -4,6 +4,7 @@ import "fmt"
 
 // type SumOut uint | error
 // type SumOut uint error
+// TODO NAO CONSEGUI RETORNAR MAIS QUE UM TIPO  >> NO TIPO PERSONALIZADO...
 
 func Sum(a, b uint) uint {
 	result, err := useSum(a, b)
