@@ -9,7 +9,7 @@ type Car struct {
 
 var car1 = Car{"Fusca", 1000}
 
-func useCreateCar(inputCar Car) Car {
+func createCar(inputCar Car) Car {
 	car := inputCar
 	return car
 }
@@ -23,8 +23,8 @@ func (c Car) showNumeracaoProto() uint {
 	return c.numeracao
 }
 
-func CreateCar() {
-	fmt.Println(useCreateCar(car1))
+func ExecuteCar() {
+	fmt.Println(createCar(car1))
 	fmt.Println(car1.andarProto())
 	fmt.Println(car1.showNumeracaoProto())
 }

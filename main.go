@@ -80,6 +80,6 @@ func main() {
 
 	// fmt.Println(exemplo.Sum(40, 10))
 
-	formas.CreateCar()
+	formas.ExecuteCar()
 
 }
