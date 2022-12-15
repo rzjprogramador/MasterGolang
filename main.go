@@ -74,9 +74,9 @@ func main() {
 	// acoes.AcoesAnonimas()
 	// acoes.ExecuteClosure()
 
-	ferramentasAcoes.ExecuteDeferAdiarExecucao()
-	ferramentasAcoes.ExecuteAvaliacaoAlunoAdiando()
-	ferramentasAcoes.ExecutePanic()
-	ferramentasAcoes.ExecutePanicEstudando2()
+	// ferramentasAcoes.ExecuteDeferAdiarExecucao()
+	// ferramentasAcoes.ExecuteAvaliacaoAlunoAdiando()
+	// ferramentasAcoes.ExecutePanic()
+	// ferramentasAcoes.ExecutePanicEstudando2()
 
 }
