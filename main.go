@@ -1,25 +1,25 @@
 package main
 
-// import (
-	// 	// "log"
+import "fmt"
 
-	// "github.com/MasterGolang/ferramentasAcoes"
-	// // "github.com/MasterGolang/ferramentasNativas"
-	// // "github.com/MasterGolang/ferramentasTecnicas"
-	// // "github.com/MasterGolang/ferramentasNativas"
-	// // "github.com/MasterGolang/ferramentasTecnicas"
-	// "github.com/MasterGolang/acoes"
-	// // "github.com/MasterGolang/base/agrupamento"
-	// // "github.com/MasterGolang/base/conversoes"
-	// // "github.com/MasterGolang/base/escritas"
-	// // "github.com/MasterGolang/base/fluxo"
-	// // "github.com/MasterGolang/base/loops"
-	// // "github.com/MasterGolang/base/formas"
-	// // "github.com/MasterGolang/base/perguntarOperadores"
-	// // "github.com/MasterGolang/base/tiposDeDados"
-	// // "github.com/MasterGolang/base/variaveis"
-	// // "github.com/MasterGolang/operacoes/math"
-// )
+import exemplo "github.com/MasterGolang/exemplos"
+
+// import "github.com/MasterGolang/ferramentasAcoes"
+// import "github.com/MasterGolang/ferramentasNativas"
+// import "github.com/MasterGolang/ferramentasTecnicas"
+// import "github.com/MasterGolang/ferramentasNativas"
+// import "github.com/MasterGolang/ferramentasTecnicas"
+// import "github.com/MasterGolang/acoes"
+// import "github.com/MasterGolang/base/agrupamento"
+// import "github.com/MasterGolang/base/conversoes"
+// import "github.com/MasterGolang/base/escritas"
+// import "github.com/MasterGolang/base/fluxo"
+// import "github.com/MasterGolang/base/loops"
+// import "github.com/MasterGolang/base/formas"
+// import "github.com/MasterGolang/base/perguntarOperadores"
+// import "github.com/MasterGolang/base/tiposDeDados"
+// import "github.com/MasterGolang/base/variaveis"
+// import "github.com/MasterGolang/operacoes/math"
 
 func main() {
 	// print("**** Hello Word - Main **** \n")
@@ -78,5 +78,7 @@ func main() {
 	// ferramentasAcoes.ExecuteAvaliacaoAlunoAdiando()
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
+
+	fmt.Println(exemplo.ExemploEstruturadaOperacaoSoma(40, 50))
 
 }
