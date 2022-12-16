@@ -1,6 +1,8 @@
 package main
 
-import inmemory "github.com/MasterGolang/exemplos/inmemory"
+// import inmemory "github.com/MasterGolang/exemplos/inmemory"
+
+// import erros "github.com/MasterGolang/erros"
 
 // import "github.com/MasterGolang/ferramentasAcoes"
 // import "github.com/MasterGolang/ferramentasNativas"
@@ -78,8 +80,11 @@ func main() {
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
 
-	// inmemory.MainSum()
+	// inmemory.MainCar()
 
-	inmemory.MainCar()
+	// erros.MainErro1()
+	// erros.MainErroOperacaoMath()
+	// erros.MainErroCriarEntity()
+	// erros.MainErroCriarEntityValida()
 
 }
