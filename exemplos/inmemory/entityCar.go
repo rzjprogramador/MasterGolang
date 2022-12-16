@@ -1,4 +1,4 @@
-package exemplos
+package inmemory
 
 import "fmt"
 

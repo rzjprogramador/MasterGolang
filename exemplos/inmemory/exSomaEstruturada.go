@@ -1,8 +1,8 @@
-package exemplos
+package inmemory
 
 import "fmt"
 
-func ExecuteSum() {
+func MainSum() {
 	fmt.Println(sum(100, 20))
 }
 

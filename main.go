@@ -1,6 +1,6 @@
 package main
 
-import exemplos "github.com/MasterGolang/exemplos"
+import inmemory "github.com/MasterGolang/exemplos/inmemory"
 
 // import "github.com/MasterGolang/ferramentasAcoes"
 // import "github.com/MasterGolang/ferramentasNativas"
@@ -71,14 +71,15 @@ func main() {
 	// acoes.RetornandoMaisQueUmaVar()
 	// acoes.ReduceDeMultiplasEntradas()
 	// acoes.AcoesAnonimas()
-	// acoes.ExecuteClosure()
+	// acoes.MainClosure()
 
 	// ferramentasAcoes.ExecuteDeferAdiarExecucao()
 	// ferramentasAcoes.ExecuteAvaliacaoAlunoAdiando()
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
 
-	// exemplos.ExecuteSum()
-	exemplos.MainCar()
+	// inmemory.MainSum()
+
+	inmemory.MainCar()
 
 }

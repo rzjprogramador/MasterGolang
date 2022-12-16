@@ -11,7 +11,7 @@ func closure() func() {
 	return capPrimeiraDeclaracao
 }
 
-func ExecuteClosure() {
+func MainClosure() {
 	foo := "esta é outra foo ... deste escopo -- mas ele vai lembrar da var usada onde ele foi a priemira vez declarado...nao desta emsmo tendo o mesmo nome de var"
 
 	fmt.Println(foo) // dado este print somente pro go nao reclamar que nao esta usando.
