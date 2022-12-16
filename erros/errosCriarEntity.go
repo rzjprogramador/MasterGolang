@@ -18,6 +18,7 @@ var e2 = Entity{"Guga", 2000}
 
 // var e3 = Entity{"Leo", 3000}
 
+
 func handleCreateEntity(inputEntity Entity) (Entity, error) {
 	newEntity := inputEntity
 
