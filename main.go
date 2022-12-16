@@ -3,7 +3,8 @@ package main
 // import inmemory "github.com/MasterGolang/exemplos/inmemory"
 
 // import erros "github.com/MasterGolang/erros"
-import testes "github.com/MasterGolang/testes"
+
+import enderecos "github.com/MasterGolang/enderecos"
 
 // import "github.com/MasterGolang/ferramentasAcoes"
 // import "github.com/MasterGolang/ferramentasNativas"
@@ -88,6 +89,6 @@ func main() {
 	// erros.MainErroCriarEntity()
 	// erros.MainErroCriarEntityValida()
 
-	testes.TestEndereco()
+	enderecos.TestEndereco()
 
 }

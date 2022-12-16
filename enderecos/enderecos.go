@@ -1,4 +1,4 @@
-package paraTest
+package enderecos
 
 import "strings"
 
@@ -18,7 +18,7 @@ func TipoEnderecos(endereco string) string {
 	}
 
 	if enderecoTemTipoValido {
-		return primeiraPalavraEndereco
+		return strings.Title(primeiraPalavraEndereco)
 	}
 	return "tipo invalido"
 
