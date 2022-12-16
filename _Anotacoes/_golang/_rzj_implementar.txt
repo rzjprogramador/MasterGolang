@@ -1,0 +1,28 @@
+# rzj implementar
+
+acoes_no_modulo_entidade: {
+  cenariosPossiveis: [ manipuladorDoObjetivo,objetivoPrincipal, executadorMainNaTela ]
+  passo: 1,
+  conceito: "manipuladorDoObjetivo", 
+  nomeacao: "handle<objetivo>",
+  explicacao: "vai manipular a falha e do sucesso do objetivoPricnipal , manipulando o retorno de sucesso falha.",
+  exemplo: "",
+ }, 
+ {
+  passo: 2, 
+  conceito: "",
+  nomeacao: "objetivoPrincipal",
+  explicacao: "acao do objetivo principal que vai usar a manipulacao do objetivo",
+  exemplo: "",
+ }, 
+ {
+  passo: 3, 
+  conceito: "executadorMainNaTela",
+  nomeacao: "Main <Objetivo>",
+  explicacao: "acao que vai executar o final",
+  exemplo: "",
+ }
+ 
+ ---
+
+  

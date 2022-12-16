@@ -14,10 +14,11 @@ type Entity struct {
 var e1 = Entity{"", 1000}
 
 // var e1 = Entity{"Rei", 1000}
-// var e2 = Entity{"Guga", 2000}
+var e2 = Entity{"Guga", 2000}
+
 // var e3 = Entity{"Leo", 3000}
 
-func createEntity(inputEntity Entity) (Entity, error) {
+func handleCreateEntity(inputEntity Entity) (Entity, error) {
 	newEntity := inputEntity
 
 	if newEntity.nome == "" {
@@ -26,8 +27,8 @@ func createEntity(inputEntity Entity) (Entity, error) {
 	return newEntity, nil
 }
 
-func executeCreateEntity(inputEntity Entity) Entity {
-	created, err := createEntity(inputEntity)
+func createEntity(inputEntity Entity) Entity {
+	created, err := handleCreateEntity(inputEntity)
 
 	if err != nil {
 		log.Fatal(err.Error())
@@ -36,5 +37,6 @@ func executeCreateEntity(inputEntity Entity) Entity {
 }
 
 func MainErroCriarEntity() {
-	fmt.Println(executeCreateEntity(e1))
+	// fmt.Println(createEntity(e1))
+	fmt.Println(createEntity(e2))
 }
