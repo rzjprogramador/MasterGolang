@@ -78,6 +78,7 @@ func main() {
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
 
-	exemplos.ExecuteSum()
+	// exemplos.ExecuteSum()
+	exemplos.MainCar()
 
 }
