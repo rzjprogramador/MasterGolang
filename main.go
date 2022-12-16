@@ -1,6 +1,6 @@
 package main
 
-// import exemplo "github.com/MasterGolang/exemplos"
+import exemplos "github.com/MasterGolang/exemplos"
 
 // import "github.com/MasterGolang/ferramentasAcoes"
 // import "github.com/MasterGolang/ferramentasNativas"
@@ -13,7 +13,7 @@ package main
 // import "github.com/MasterGolang/base/escritas"
 // import "github.com/MasterGolang/base/fluxo"
 // import "github.com/MasterGolang/base/loops"
-import "github.com/MasterGolang/base/formas"
+// import "github.com/MasterGolang/base/formas"
 
 // import "github.com/MasterGolang/base/perguntarOperadores"
 // import "github.com/MasterGolang/base/tiposDeDados"
@@ -78,8 +78,6 @@ func main() {
 	// ferramentasAcoes.ExecutePanic()
 	// ferramentasAcoes.ExecutePanicEstudando2()
 
-	// fmt.Println(exemplo.Sum(40, 10))
-
-	formas.ExecuteCar()
+	exemplos.ExecuteSum()
 
 }

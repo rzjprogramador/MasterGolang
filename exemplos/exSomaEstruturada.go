@@ -1,12 +1,12 @@
-package exemplo
+package exemplos
 
 import "fmt"
 
-// type SumOut uint | error
-// type SumOut uint error
-// TODO NAO CONSEGUI RETORNAR MAIS QUE UM TIPO  >> NO TIPO PERSONALIZADO...
+func ExecuteSum() {
+	fmt.Println(sum(100, 20))
+}
 
-func Sum(a, b uint) uint {
+func sum(a, b uint) uint {
 	result, err := useSum(a, b)
 	if err != nil {
 		fmt.Println(err)
