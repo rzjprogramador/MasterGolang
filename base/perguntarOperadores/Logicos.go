@@ -27,7 +27,7 @@ func Logicos() {
 
 	// operador_OU : || basta uma ser verdade pra retornar verdade, narracao: Pode ser Esta "OU" estas pra ser verdade.
 
-	// operador_NEGACAO : ! inverte o valor bolaeano de uma referencia, se era true vira false e vice e versa
+	// operador_NEGACAO : ! inverte o valor bolaeano de uma referencia, se era true vira false e vice e versa ... OBS: o negacao só mostra ou inverte um valor boleano se este valor for mesmo de origem boleana ... senao for ele nao inverte para boleano.
 
 	// fmt.Println(!!foo) // TODO: TENTANDO INVERTER PARA BOLEANO UMA REFERENCIA NAO BOLEANA EM GO
 
