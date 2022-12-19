@@ -4,13 +4,13 @@ package main
 
 // import erros "github.com/MasterGolang/erros"
 
-import "github.com/MasterGolang/ferramentas/ferramentasLoop"
+// import "github.com/MasterGolang/ferramentas/ferramentasLoop"
+// import "github.com/MasterGolang/ferramentas/ferramentasAcoes"
+// import "github.com/MasterGolang/ferramentas/ferramentasNativas"
+// import "github.com/MasterGolang/ferramentas/ferramentasTecnicas"
+// import "github.com/MasterGolang/ferramentas/ferramentasNativas"
+// import "github.com/MasterGolang/ferramentas/ferramentasTecnicas"
 
-// import "github.com/MasterGolang/ferramentasAcoes"
-// import "github.com/MasterGolang/ferramentasNativas"
-// import "github.com/MasterGolang/ferramentasTecnicas"
-// import "github.com/MasterGolang/ferramentasNativas"
-// import "github.com/MasterGolang/ferramentasTecnicas"
 // import "github.com/MasterGolang/acoes"
 // import "github.com/MasterGolang/base/agrupamento"
 // import "github.com/MasterGolang/base/conversoes"
@@ -83,7 +83,7 @@ func main() {
 	// acoes.AcoesAnonimas()
 	// acoes.MainClosure()
 
-	ferramentasLoop.ContinueIgnoreSeForEstaCondicao()
+	// ferramentasLoop.ContinueIgnoreSeForEstaCondicao()
 	// ferramentasAcoes.ExecuteDeferAdiarExecucao()
 	// ferramentasAcoes.ExecuteAvaliacaoAlunoAdiando()
 	// ferramentasAcoes.ExecutePanic()
