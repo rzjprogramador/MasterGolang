@@ -1,6 +1,7 @@
 package main
 
 // import inmemory "github.com/MasterGolang/exemplos/inmemory"
+// import variaveisAmbiente "github.com/MasterGolang/variaveisAmbiente"
 
 // import erros "github.com/MasterGolang/erros"
 
@@ -96,5 +97,7 @@ func main() {
 	// erros.MainErroCriarEntity()
 	// erros.MainErroCriarEntityValida()
 	// erros.PrintErrosResolver()
+
+	// variaveisAmbiente.VariaveisAmbienteGo()
 
 }

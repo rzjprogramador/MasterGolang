@@ -1,0 +1,407 @@
+
+
+
+sabedoria:
+  sol_o_deus: https://www.filosofiaesoterica.com/sol-deus-ilumina-terra/
+  
+teosofia_por_Helena_Blavatsky : https://pt.m.wikipedia.org/wiki/Teosofia
+
+
+notebooks_online: 
+  golang_notebook: https://colab.research.google.com/drive/1aoHKfyD2WT03Sjm0hHIdTPxa8z_ZiXly?usp=sharing
+
+fundamentos: 
+  byFullCycle https://youtu.be/kK-vywg82zo. ,
+
+editores:
+  vim:
+    byTAguiar https://youtu.be/R62NTq4ae9o  ,
+
+oficial_ecmascript:
+git : https://github.com/tc39
+
+firebase: [
+  authentication: [
+    node_js: https://firebase.google.com/docs/reference/node/firebase.auth.Auth ,
+],
+],
+
+#Top_fontes:
+
+base: [
+elemarJunior : https://youtube.com/@ElemarJunior
+
+mentores:
+
+golang:
+vkorbes byEllen : git :https://github.com/vkorbes/aprendago/blob/master/OUTLINE.md
+ canal: https://youtube.com/@AprendaGo
+
+aprendaGolang : https://aprendagolang.com.br/tag/ciencia-da-computacao/  ,
+
+
+],
+
+comunicao:
+  grpc: grpc - evolucao da comunivacao rest protocol Buffer  em HTTP2 by fullCycle site grpc : https://grpc.io/   
+  tutorial: 
+   hello, https://youtu.be/QyyMjF764mo
+soma, https://youtu.be/CxTFc9JxKdU
+fibonarcci, https://youtu.be/9RvushutRPw
+produto, https://youtu.be/9RvushutRPw
+
+
+implementacoes_tops:
+  golang: implementacao golang byFullCycle 2022 https://youtu.be/Bq2XTGzV8yc  ,
+  https://youtu.be/_4JpGnoh0Pg ,
+
+js: [
+  rogerMello: https://youtube.com/c/RogerMelo ,
+  
+  gabrielBarreto : https://youtube.com/c/GabrielBarretoDev ,
+  
+  fabioVendovelli conceituadoDevs :
+  https://youtube.com/@FabioVedovelli  ,
+  
+https://facildev.com.br/
+
+// ==============
+disciplinas: 
+  algoritimo: 
+    byElemar: https://youtu.be/IkS8AqBXSZA
+js_disciplina:
+  prototype: [
+    byNelio https://youtu.be/cSFskNH1E5k  ,
+
+  js_convencoes: https://www.robinwieruch.de/javascript-naming-conventions/  ,
+  
+
+  ferramentas_js: [
+  https://facildev.com.br/web-stories/7-truques-que-todo-desenvolvedor-javascript-deve-saber/  ,
+  
+],
+
+  tipagem_js:
+  https://youtu.be/LhpT7Qm1yn8  ,
+  
+  
+],
+
+otimizacao_app:
+  cache: 
+  cache node by dogcode https://youtu.be/INMLtaqXNBQ
+  
+
+]
+
+js_tutoriais: [
+  tiposJavascriptby alura https://www.alura.com.br/artigos/tipagem-dinamica-com-javascript ,
+  
+devLucas tipagem js e ts  https://blog.lsantos.dev/js-tipos-proposal/#amp_tf=De%20%251%24s&aoh=16691656182380&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fblog.lsantos.dev%2Fjs-tipos-proposal%2F  ,
+
+  
+]
+
+login:
+  login_golang: https://michelleamesquita.medium.com/autoriza%C3%A7%C3%A3o-autentica%C3%A7%C3%A3o-e-golang-63dfebfb5fd3
+
+
+api_graphl:
+  golang_graphql: by gqlgen apollo https://www.apollographql.com/blog/graphql/golang/using-graphql-with-golang/
+  
+......
+
+js_framework:
+  react: [
+    aqueleProgramador: https://youtube.com/c/UmbertoJuniorvip ,
+
+
+]
+.....
+
+
+#Top_aulas:
+js_framework: [
+  react: [ 
+  aula: react mais rapido, link: https://youtu.be/h1OdrtXmmmw,
+  
+
+   ],
+---
+autorizacao: [
+  graphql_jwt: by barreto > https://youtu.be/4h-Y9ASaREk ,
+  
+]
+
+--
+]
+
+#musica_cursos:
+  composicao: [
+  maikow Melo , https://www.facebook.com/oceanoazulacademy ,
+
+
+],
+
+# refatoracao: [
+  js: [
+   if_else_1::  https://dev.to/sylwiavargas/5-ways-to-refactor-if-else-statements-in-js-functions-208e. ,
+
+
+  ],
+  
+loops_js: [
+rogerLive: [ porque usar metodos de array > https://youtu.be/ElJwg-tURNk. ,
+
+uriel loops js diferencas :: https://youtu.be/6u4WOzvp9w8
+  ]
+tratamento_erros:
+  byRoger elegante https://youtu.be/MAHvHfTM46M
+  try  https://youtu.be/Pb2NYgGlHGA  ,      https://youtu.be/sDSQ8FWccKE 
+],
+
+imutabilidade: [
+  aos 42:00 roger > https://youtu.be/ElJwg-tURNk
+],
+
+typescript: [
+dicas: https://oieduardorabelo.medium.com/typescript-18-dicas-e-padr%C3%B5es-para-seu-c%C3%B3digo-b63f492a42cd  ,
+
+classes_ts: https://youtu.be/d-uoTALksU4,
+
+debbuger: https://youtu.be/sn-JHN0UoLE
+
+
+]
+
+github:
+gitHub_vscode: thicode: https://youtu.be/7cNP3AE49Bg
+
+hardware:
+  energia: [
+    adaptador energia para usb-c notebook :: https://youtu.be/hzEgm88wBDA
+],
+notebook 5v : Notebook Q232B Positivo media 600,00 em 2020 https://youtu.be/6v379jIsA2k
+
+tests: [
+  vitest: [
+     byUriel 22  https://youtu.be/n94wJZr6y5M
+],,
+]
+
+acessorios:
+  UgreenBrazíl: https://www.facebook.com/UgreenBrazil?mibextid=ZbWKwL
+  
+tests: [
+  node_tests: 
+  doc_node_asserts: https://nodejs.org/api/assert.html#class-assertcalltracker
+  
+    aula1 erick : https://youtu.be/8hxhZkBzWhk  ,
+
+
+  mocks: [
+  mock _interfaces_ts: https://youtu.be/SyB1qv6HUKU
+],
+  
+]
+
+
+LINKS TOP AULAS
+
+conferir prototype: rogerMello aos 9:13 https://youtu.be/yke9m4V9UWQ
+
+NEXT_JS
+Next com Material Ui : https://youtu.be/lKD5Z0ORA54
+
+// PRINCIPAIS LINKS
+
+// faixas de cep sao paulo p/ mixflex by komercialize: https://ajuda.komercialize.com.br/Post/66181/faixas-de-cep-por-bairros-de-sao-paulo
+
+
+NODE:
+DEBUGGER APP NODE COM TYPESCRIPT : https://drive.google.com/file/d/15PZYJ3zHpybJn4TZZE9j5rpGwpF0MzZY/view?usp=sharing
+
+
+vscode:
+extensoes: https://www.tabnews.com.br/josevictormoreno/mais-extensoes-maravilhosas-para-o-vscode
+=========================
+
+desintalar poetry se tiver instalado pelo pip e instalar com pipx.
+l
+....
+
+meu notebook Google Colab : https://colab.research.google.com/notebooks/
+
+Roadmap_dunossauro: Curso Aprender Python >> https://roadmap.dunossauro.live/
+
+
+python 3_10_novidades: 
+https://pythonacademy.com.br/blog/python-3-10-o-que-ha-de-novo
+
+
+- forum usar sqlite em producao: https://groups.google.com/g/rails-br/c/nvtA8O41XxY
+- 
+mudar configuracao  terminal bashrc
+https://www.vivaolinux.com.br/topico/Helps-e-dicas-para-usuarios-iniciantes/Personalizar-Terminal-Console-Nome
+
+Vscode configuracoes:
+link: https://gist.github.com/W3SS/194094bd18e9484ed35ba94b6c42fc72
+
+Ecmass editor by dunossauro :
+https://youtube.com/playlist?list=PLOQgLBuj2-3I7w8JQvCY8lbbrUZL-gf4m
+
+Emacs by debpx
+https://youtube.com/playlist?list=PLXoSGejyuQGpYSV3aCTofC2bS2tNUP1Ko
+
+
+mongoDB precos: 
+https://www.capterra.com.br/software/127374/mongodb
+===========
+editor de texto: Emacs
+
+mostrar versao pytjon no nome do terminal : lib bash-it
+
+banco_Dados_NSQ: Tiny DB banco feito em python , semelhante sqlite e mongo...dados json ou bson.
+
+rodar arquivo isolado no console: python ou phthon3 <arquivo.extensao>
+
+for in ..bom pra interar sobre arday de objteos  e mostrar no console linha por linha.
+
+
+// APRENDER SOBRE TODO: ============
+busca binaria em banco de dados ao inves de index posicao... organizar os dados pra ser possivel fazer busca binaria.
+....
+
+crud SqlLite
+https://youtu.be/2WUo5tD-eIA
+
+cenario 2022 sqlite:
+Sim, mas o problema do SQLite é que independentemente do cliente que você usar, a escrita no banco só pode ocorrer bloqueando o acesso. Então dois clientes não podem escrever simultaneamente. Os clientes vão ter que tratar erros de escrita e re-tentativa e se houver muita concorrência, a velocidade do SQLite deixa de ser uma vantagem.
+......
+python --utils
+https://www.facebook.com/104712048492020/posts/pfbid02MkanDVCwxS2FsHxotPteYA3ZNTmBuGFQUU1VAaeeQjeENjjXLKPuc43M4FeEVNzpl/
+
+========
+COMPRAR CURSO UDEMY 
+COM FULL DESCONTO :
+so de aviso amigo , quando for comprar um curso da udemy com preco full price , copia o link e abre ele por uma guia anonima , que sempre ta com desconto maximo , ai depois voce so loga e efetua o pagamento
+
+
+==============
+Auto exportar instancia de classe : https://stackoverflow.com/questions/57049953/default-export-new-instance-of-class/57050195#57050195
+=================
+
+ESTUDAR 
+PYTHON:
+mypy >> para validacao de argumentos.
+
+python com mongo db asincrono com o odm ODMantic
+https://art049.github.io/odmantic/
+
+https://art049.github.io/odmantic/engine/
+
+Funcoes Closures Py : https://www.youtube.com/watch?v=TaZGQXWFsf4&list=PLOQgLBuj2-3K1hb7XgkGPb4S9YNIeHsPk&index=153
+
+......
+Prisma + MongoDB : https://blog.tericcabrel.com/connect-mongodb-nodejs-prisma
+
+Codigos de Erro Prisma:
+https://www.prisma.io/docs/reference/api-reference/error-reference
+....
+
+BAIXAR 
+Pirata Livro Codigo Limpo em pdf
+no  site pt.z-lib 
+||
+https://github.com/free-educa/free-livros
+||
+https://www.estantevirtual.com.br/viniciusesperanca/robert-c-martin-desenvolvimento-agil-limpo-de-volta-as-origens-volume-1-3091403871?show_suggestion=0
+......
+
+TOP DESIGN SITES:
+https://rlazarotto.pages.dev/
+
+....
+
+VAGAS
+
+dev em Santos : 
+https://www.catho.com.br/vagas/desenvolvedor-front-end/santos-sp/?gclid=Cj0KCQjwyt-ZBhCNARIsAKH1175s4q22OTJHga_P74dgVNyi-LqtmOQMB0gEOl91GFQ1jZzHLumf8ZQaAh_6EALw_wcB
+
+PROGRAMAS LINUX
+torrent : qbitorrent https://diolinux.com.br/sistemas-operacionais/qbittorrent-o-melhor-gerenciador-de-torrents-para-linux.html?amp=1
+.......
+
+UTILS:
+flaticon , extensao chrome copia texto em imagens link: https://youtube.com/shorts/UXTARfrG3Fg?feature=share
+
+-----
+LINKS TOP
+
+aula top autenticacao auth com Whashigton : https://youtu.be/veQjC0bPvFE
+
+node v18 intregrado com --watch pra js...ts ainda nao por enquanto.
+
+curso bom ingles, fluente que nem sente: https://fb.watch/g0wFqk-RM_/
+
+engender objetos js:
+https://youtu.be/AznfDQ1b70I
+
+javascript
+rocket 22 : https://youtu.be/37SwqREHRGI
+
+entender curring : https://youtu.be/-Kq6Slj0Qy8
+
+nao_precisa_usar_loop_for:
+https://youtu.be/uToFBSKUu9M
+
+aulas de test: livePy75 testando unidades: https://youtu.be/Sr9lUR1COpU
+
+cors acessoApi: https://www.facebook.com/groups/1407602962733165/permalink/2559625594197557/
+...
+ type Guards is number.
+https://youtu.be/QK_45Wf9tmI
+
+validar campos com regex : https://youtu.be/uaSlTQu6f5E
+
+middle errors express: https://youtu.be/SnxAq9ktyuo
+
+....
+baixar_video udemy 
+sem programas: https://www.acethinker.com.br/video-downloader/baixe-udemy.html
+
+ com udeler : https://ubunlog.com/pt/baixe-os-v%C3%ADdeos-do-curso-udemy-com-o-udeler/amp/
+
+....
+CURSOS PIRATA_PIRATE
+
+links_cursos_piratas_pirate:
+
+roger_mello_js_cjrm_22:
+https://downloadcursos.top/curso-de-javascript/
+
+algomania: https://downloadcursos.top/pratique-a-resolucao-de-desafios-de-programacao-e-arrebente-na-sua-proxima-entrevista/
+
+https://cursospirata.com/category/cursos/programacao/
+
+......
+COMPRAR LIVROS
+codigo limpo: https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=mp_s_a_1_1?adgrpid=81589511672&gclid=CjwKCAjw7eSZBhB8EiwA60kCW0-ycoXN3YTM4qo_QAk9TGvk4OjA3n1wguIkmjGwL1C5enmVsaEZLRoCuScQAvD_BwE&hvadid=426016006295&hvdev=m&hvlocphy=1001773&hvnetw=g&hvqmt=b&hvrand=8094651705157860189&hvtargid=kwd-346823505347&hydadcr=5628_11235155&keywords=livro+c%C3%B3digo+limpo&qid=1664739307&qu=eyJxc2MiOiIxLjA1IiwicXNhIjoiMS4yMSIsInFzcCI6IjAuNjQifQ%3D%3D&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+
+....
+tv
+jogo ao vivo
+
+liveEspot : https://www.facebook.com/100086726490304/videos/
+
+casa campea: https://www.facebook.com/profile.php?id=100086331378133
+
+baixar_videos:
+  baixar_da_udemy: com udeler no linux: https://ubunlog.com/pt/descarga-los-videos-de-los-cursos-de-udemy-con-udeler/#:~:text=uder%20%C3%A9%20um%20aplicativo%20de,operacional%20Linux%2C%20Mac%20e%20Windows.
+  
+// ======
+
+trechos_importantes:
+ aos 43:00 fulkCycle Api Golang fala que Go tem GarbCollection coletor de lixos que fica passando no codigo voletando lixo na memoria.
+
+
