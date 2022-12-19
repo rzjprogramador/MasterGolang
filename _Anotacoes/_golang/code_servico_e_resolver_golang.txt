@@ -1,29 +1,5 @@
-package erros
+# code servico e resolver golang
 
-import (
-	"errors"
-	"log"
-)
-
-func erroService(s string) (string, error) {
-	valor := s
-	if valor == "foo" {
-		return "", errors.New("nao pode ser foo")
-	}
-	return valor, nil
-}
-
-func PrintErrosResolver() string {
-	result, err := erroService("foo")
-
-	if err != nil {
-		// log.Fatalf("o erro foi :: %v", err)
-		log.Fatal(err.Error())
-	}
-	return result
-}
-
-/*
 implementacao_servico_golang:
   2funcoes : [ Service1, Resolver2]r vai pro main sera usado pela comunicacao que responde o Client.
 	service vai ser recuperado no resolver... e o resolver recuperado como resposta na comunicacao com o Client.
@@ -49,12 +25,3 @@ implementacao_servico_golang:
 
 		resolvendoSucesso:
 			retorne o sucesso.
-*/
-
-/*
-Printar_erros:
-	#preferencia::
-		log.Fatal(err.Error())
-		ou se preferir mais uma mensagem antes de printar o erro use:
-		log.Fatalf ("o erro foi :: %v", variavelErro )
-*/
