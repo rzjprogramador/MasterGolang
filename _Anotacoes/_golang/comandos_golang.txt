@@ -1,0 +1,11 @@
+
+rodar_arquivo: 
+```go run arquivo.go``` 
+/* 
+obs: tem que ter a funcao main neste arquivo... ou vc recupera na funcao main() o arquivo que quer rodar em forma de pacote/objeto exportado.
+*/
+
+rodar_tests:
+  arquivo_isolado: ```go test``` // to console tem que estar na pasta do arquivo.
+
+  todos_tests_existentes: ``` ```
