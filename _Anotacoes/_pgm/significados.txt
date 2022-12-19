@@ -1,3 +1,0 @@
-
-
-recuperar: recuperar é usar uma variavel/valor.

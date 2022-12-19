@@ -1,0 +1,9 @@
+# SIGNIFICADOS PGM
+
+valor = informacao
+
+valor_verdade: informacao passada pelo dono.
+
+recuperar: recuperar é usar uma variavel/valor.
+
+ponteiro: ponteiro um lugar na memoria que compartilha verdades ... via indicacao com"*" asteristico na referencia...ou seja veja como se fosse um cofre onde só nele foi guardado um valorVerdadeUnico, que quiser usa-lo vou passar por ponteiroIndicacao este caminho do cofre/locsl memoria compartilhados de verdade.
