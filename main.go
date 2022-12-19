@@ -4,7 +4,7 @@ package main
 
 // import erros "github.com/MasterGolang/erros"
 
-import enderecos "github.com/MasterGolang/enderecos"
+// import enderecos "github.com/MasterGolang/enderecos"
 
 // import "github.com/MasterGolang/ferramentasAcoes"
 // import "github.com/MasterGolang/ferramentasNativas"
@@ -14,7 +14,8 @@ import enderecos "github.com/MasterGolang/enderecos"
 // import "github.com/MasterGolang/acoes"
 // import "github.com/MasterGolang/base/agrupamento"
 // import "github.com/MasterGolang/base/conversoes"
-// import "github.com/MasterGolang/base/escritas"
+import "github.com/MasterGolang/base/escritas"
+
 // import "github.com/MasterGolang/base/fluxo"
 // import "github.com/MasterGolang/base/loops"
 // import "github.com/MasterGolang/base/formas"
@@ -32,14 +33,17 @@ func main() {
 	// ferramentasNativas.VerificarTipos()
 	// ferramentasNativas.Textos()
 
-	// base
+	// base --------------------------------
+
 	// log.Println(base.base())
 
 	// variaveis.Declaracoes()
 
 	// conversoes.StringParaNumero()
 
-	// escritas.PrintConsole()
+	escritas.PrintConsoleResolver()
+
+	// ------------------------------------
 
 	// loops.Incrementar()
 	// loops.PrintarItems()
@@ -89,6 +93,6 @@ func main() {
 	// erros.MainErroCriarEntity()
 	// erros.MainErroCriarEntityValida()
 
-	enderecos.TestEndereco()
+	// enderecos.TestEndereco()
 
 }
