@@ -1,16 +1,16 @@
-package ferramentasNativas
+package descobertas
 
 import (
 	"fmt"
 	"reflect"
 )
 
-func VerificarTipos() {
+func DescobrirTipos() {
 	texto := "foo"
 	numero := 10
 	grupoString := []string{"foo", "bar"}
 
-	// Verificar tipos com a libGO reflect usando dela o metodo TypeOf()
+	// Descobertas: descobrir tipos com a libNativa reflect usando dela o metodo TypeOf()
 
 	fmt.Println(reflect.TypeOf(texto))
 	fmt.Println(reflect.TypeOf(numero))
