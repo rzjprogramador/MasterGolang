@@ -30,11 +30,7 @@ editores:
 oficial_ecmascript:
 git : https://github.com/tc39
 
-firebase: [
-  authentication: [
-    node_js: https://firebase.google.com/docs/reference/node/firebase.auth.Auth ,
-],
-],
+
 
 #Top_fontes:
 

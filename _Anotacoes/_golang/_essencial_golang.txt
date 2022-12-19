@@ -14,15 +14,7 @@ estruturado: fazer uma estrutura struct quando preciso de algo estruturado com c
 fluxo_condicionais: em golang somente 2 :: [ if (Se) , switchCase (interruptor) ]
 por enquanto em 2022 nao temos ternario.
 
-banco_de_dados:
-   firebase: iniciar com SDK firestore o banco firebase do Google em Golang "Vai".
-   link: https://firebase.google.com/docs/firestore/quickstart#go
-   
-crud: golang com firebase:
-https://blog.canopas.com/golang-firebase-realtime-database-crud-operations-8508e3116887
 
-porque_usar_banco_do_firebase:
-por causa da atualizacao de dados em tempo real sem o Client ir ao servidor e banco.
 ....
 
 nascimento_declarar_propriedade:
