@@ -19,7 +19,7 @@ var e2 = Entity{"Guga", 2000}
 // var e3 = Entity{"Leo", 3000}
 
 
-func handleCreateEntity(inputEntity Entity) (Entity, error) {
+func createEntityServ(inputEntity Entity) (Entity, error) {
 	newEntity := inputEntity
 
 	if newEntity.nome == "" {
@@ -28,8 +28,8 @@ func handleCreateEntity(inputEntity Entity) (Entity, error) {
 	return newEntity, nil
 }
 
-func createEntity(inputEntity Entity) Entity {
-	created, err := handleCreateEntity(inputEntity)
+func createEntityResolver(inputEntity Entity) Entity {
+	created, err := createEntityServ(inputEntity)
 
 	if err != nil {
 		log.Fatal(err.Error())
@@ -39,5 +39,5 @@ func createEntity(inputEntity Entity) Entity {
 
 func MainErroCriarEntity() {
 	// fmt.Println(createEntity(e1))
-	fmt.Println(createEntity(e2))
+	fmt.Println(createEntityResolver(e2))
 }

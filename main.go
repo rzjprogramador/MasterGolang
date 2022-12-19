@@ -2,7 +2,7 @@ package main
 
 // import inmemory "github.com/MasterGolang/exemplos/inmemory"
 
-// import erros "github.com/MasterGolang/erros"
+import erros "github.com/MasterGolang/erros"
 
 // import enderecos "github.com/MasterGolang/enderecos"
 
@@ -14,7 +14,7 @@ package main
 // import "github.com/MasterGolang/acoes"
 // import "github.com/MasterGolang/base/agrupamento"
 // import "github.com/MasterGolang/base/conversoes"
-import "github.com/MasterGolang/base/escritas"
+// import "github.com/MasterGolang/base/escritas"
 
 // import "github.com/MasterGolang/base/fluxo"
 // import "github.com/MasterGolang/base/loops"
@@ -41,7 +41,7 @@ func main() {
 
 	// conversoes.StringParaNumero()
 
-	escritas.PrintConsoleResolver()
+	// escritas.PrintConsoleResolver()
 
 	// ------------------------------------
 
@@ -92,6 +92,7 @@ func main() {
 	// erros.MainErroOperacaoMath()
 	// erros.MainErroCriarEntity()
 	// erros.MainErroCriarEntityValida()
+	erros.PrintErrosResolver()
 
 	// enderecos.TestEndereco()
 

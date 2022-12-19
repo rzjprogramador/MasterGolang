@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func soma(a, b uint) (uint, error) {
+func somaServ(a, b uint) (uint, error) {
 	res := a + b
 	if res > 10 {
 		return 0, errors.New("Ops... resultado nao pode ser mais que 10")
@@ -14,8 +14,8 @@ func soma(a, b uint) (uint, error) {
 	return res, nil
 }
 
-func executeSoma(a, b uint) uint {
-	res, err := soma(a, b)
+func resolverSoma(a, b uint) uint {
+	res, err := somaServ(a, b)
 
 	if err != nil {
 		log.Fatal(err.Error())
@@ -24,5 +24,5 @@ func executeSoma(a, b uint) uint {
 }
 
 func MainErroOperacaoMath() {
-	fmt.Println(executeSoma(9, 1))
+	fmt.Println(resolverSoma(9, 1))
 }
