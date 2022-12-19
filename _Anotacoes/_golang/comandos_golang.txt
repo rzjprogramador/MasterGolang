@@ -6,6 +6,14 @@ obs: tem que ter a funcao main neste arquivo... ou vc recupera na funcao main() 
 */
 
 rodar_tests:
-  arquivo_isolado: ```go test``` // to console tem que estar na pasta do arquivo.
+  arquivo_isolado: 
+    ```go test``` // to console tem que estar na pasta do arquivo.
+  na_pasta_isolado_verboso_mostrando_nome_funcao_testada:
+  ```go test -v```
 
-  todos_tests_existentes: ``` ```
+  todos_tests_existentes: 
+  ```go test ./... ``` 
+  //go test ponto barra 3 pontos >> vai rodar todos arquivos de test que tiver _test.go no final 
+
+---
+

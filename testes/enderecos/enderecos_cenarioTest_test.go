@@ -28,6 +28,11 @@ func TestCenarioTipoEnderecos(t *testing.T) {
 		if sut != scenario.expected {
 			t.Errorf("QUEBROU  :: A AfirmacaoExpected %v ... é diferente do ResultadoCorreto: %v", scenario.expected, sut)
 		}
+		/* se quiser pode mostrar no console algum feedback do sucesso do test ..por enquanto nao necessario.
+		else {
+			t.Log("testado com sucesso !")
+		}
+		*/
 	}
 
 }
