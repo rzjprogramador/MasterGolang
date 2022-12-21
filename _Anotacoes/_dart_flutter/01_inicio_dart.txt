@@ -1,0 +1,7 @@
+docs_linguagem: {
+  site: "https://dart.dev",
+}
+
+instalacoes: {
+  link_install: "https://dart.dev/get-dart",
+}
